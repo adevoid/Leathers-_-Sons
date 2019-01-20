@@ -1,0 +1,6398 @@
+/* reset styles */
+
+html {
+   height: 100%;
+   font-family: Georgia, "Times New Roman", Times, serif;
+   font-size: 1.0em;
+}
+a, article, aside, blockquote, body, div, fieldset, figure, footer, form, h1, h2, h3, header, img, input, label, li, nav, p, section, table, td, textarea, th, tr, ul {
+   margin: 0;
+   padding: 0;   
+   border: 0;
+}
+
+/* Top of Page */
+
+/* Body */
+
+body#Home {
+    width: 100%;
+    height: 2390px;
+    overflow: scroll;
+}
+
+body#About {
+    width: 100%;
+    height: 1582px;
+    overflow: scroll;
+}
+
+body#Contact {
+    width: 100%;
+    height: 1690px;
+    overflow: scroll;
+}
+
+body#Roof {
+    width: 100%;
+    height: 2300px;
+    overflow: scroll;
+}
+
+body#Metal {
+    width: 100%;
+    height: 1740px;
+    overflow: scroll;
+}
+
+body#Spray {
+    width: 100%;
+    height: 1412px;
+    overflow: scroll;
+}
+
+body#EPDM {
+    width: 100%;
+    height: 1564px;
+    overflow: scroll;
+}
+
+body#Single {
+    width: 100%;
+    height: 1554px;
+    overflow: scroll;
+}
+
+/* Logo Area */
+
+div#logo-container {
+    width: 100%;
+}
+
+#top-div {
+    background-size: cover;
+    margin: 0px auto;
+    padding: 0px;
+    background-image:url(Images/Backgrounds/The_Catalinas_Snow_3.jpg);
+}
+
+
+ul#top-ul {
+    width: 100%;
+    max-width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+ul#top-ul > li.top-item img#logo1 {
+    width: 100%;
+    max-width: 104px;
+    max-height: 50px;
+}
+
+ul#top-ul > li.top-item img#logo2 {
+    width: 100%;
+    max-width: 75px;
+    max-height: 75px;
+}
+
+ul#top-ul > li.top-item img#logo3 {
+    width: 100%;
+    -moz-width: 100%;
+    max-width: 260px;
+    -moz-max-width: 260px;
+    max-height: 159px;
+    -moz-max-height: 159px;
+}
+
+ul#top-ul > li.top-item img#logo4 {
+    width: 100%;
+    max-width: 67px;
+    max-height: 75px;
+}
+
+ul#top-ul > li.top-item img#logo5 {
+    width: 100%;
+    max-width: 117px;
+    max-height: 50px;
+}
+
+.top-item {
+    max-width: 100%;
+    position: relative;
+    left: auto;
+    right: auto;
+    float: left;
+    margin: 1.3em 1.5em;
+    padding: 1em auto 1em auto;
+    list-style-type: none;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(215,99,29);
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 1em;
+    font-size: 1.9em;
+    clear: both;
+}
+
+/* Skip Navigation Link */
+
+p.skipnavigation {
+    position: absolute;
+    left: -10000px;
+}
+
+p.skipnavigation a:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    color: black;
+    background-color: ivory;
+    z-index: 3;
+}
+
+/* Navigation */
+
+img#nav-logo {
+    width: 93px;
+    height: 57px;
+    margin: 5px;
+    float: left;
+}
+
+header.sticky {
+    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    clear: both;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin: 0px;
+    padding: 0px;
+    background-color: #2E2D2D;
+    z-index: 1;
+}
+
+nav {
+    width: 800px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+
+nav a {
+    position: relative;
+}
+
+a.nav-item, a.dropbtn {
+    position: relative;
+    width: auto;
+    height: 40px;
+    font-size: 1.2em;
+    display: inline-block;  
+    padding: 15px 20px;
+    line-height: 40px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 2px 2px #000;
+    text-transform: uppercase;
+}
+
+label#hamburger1 {
+    margin: 5px 0px 5px 120px;
+    font-size: 26px;
+    line-height: 40px;
+    display: none;
+}
+
+#toggle {
+    display: none;
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+ul.dropdown-content {
+    font-size: 1em;
+    position: absolute;
+    min-width: 160px;
+    background-color: #8C8C95;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+    z-index: 1;
+}
+
+.nav-sub {
+    padding: 20px;
+}
+
+.nav-sub ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.dropdown-content > li {
+    padding: 8px;
+    border-bottom: 1px solid black;
+    list-style: none;
+}
+
+/*  Top level */
+
+nav > ul {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    list-style-type: none;
+}
+
+nav > ul > li {
+    padding: 0px;
+    float: left;
+
+}
+
+i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    margin: 0px 8px;
+    padding: 3px;
+    display: inline-block;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.right {
+    display: none;
+}
+
+/* Link states */
+
+ul.dropdown-content > li > a:link {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 2px 2px #0B0EB6;
+}
+
+nav > ul > li > a.nav-item:active {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    border: 2px solid black;
+    border-radius: 4%;
+}
+ul.dropdown-content > li:hover {
+    background-color: #313134;
+}
+
+ul.dropdown-content > li:active {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    border: 2px solid black;
+    border-radius: 4%;
+}
+
+a.nav-item:hover, a.dropbtn:hover {
+    background-color: #565661;
+}
+
+a.nav-item:visited, a.dropbtn:visited {
+    color: rgb(215,99,29);
+    text-shadow: 2px 2px;
+}
+
+ul.dropdown-content li a:visited {
+    color: rgb(215,99,29);
+    text-shadow: 1px 1px;
+}
+
+.nav-item:focus, a.dropbtn:focus {
+    background-color: #565661;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    color: #fff;
+    background-color: #313134;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    color: #fff;
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover .dropbtn {
+    background-color: #565661;
+}
+
+/* Main */
+
+div#background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: ivory;
+    background-image: url(Images/Backgrounds/Texture_04.jpeg);
+    background-repeat: repeat; 
+}
+
+div#top-div {
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#box-home {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1898px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+div#box-about {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+div#box-contact {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1203px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+div#box-roof {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1768px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+div#box-metal {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1208px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+div#box-spray {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 880px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+div#box-epdm {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1033px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+div#box-single {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1022px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+/* Home, About, Contact, Roof, Metal, Spray, EPDM, Single - Main */
+
+div h1#title {
+    position: relative;
+    margin: .3em auto;
+    padding-bottom: .4em;
+    font-size: 3em;
+    color: black;
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px green;
+}
+
+span.space {
+    margin: 10px;
+}
+
+/* Home - Main */
+
+div#video-center {
+    width: 100%;
+    max-width: 850px;
+    max-height: 478px;
+    margin: .5em auto 3.4em;
+}
+
+video {
+    width: 100%;
+    max-width: 850px;
+    max-height: 478px;
+    margin: .4em auto;
+    border-style: groove;
+    border-width: 8px;
+    border-color: gray;
+}
+
+section.HomePic {
+    clear: both;
+    margin: 2.3em 1em 1em;
+}
+
+.center1 {
+    font-size: 2.2em;
+    text-align: center;
+    text-shadow: 2px 2px green;
+}
+
+ul.margin {
+    margin: 30px 0px 20px 70px;
+}
+
+ul.margin > li > h3 {
+    font-size: 1.6em;
+    color: #6B3123;
+    text-shadow: 1px 1px black;
+}
+
+ul.margin > li > p {
+    font-size: 1.6em;
+    margin: 1em 0px;
+}
+
+p.indent {
+    text-indent: 1em;
+}
+
+h2.reviews {
+    text-align: center;
+    font-size: 2em;
+    margin: 0px 0px 40px;
+    text-shadow: 2px 2px #777572;
+}
+
+section.HomePic > div.imageLeft1 > img#pic1-home {
+    float: left;
+    width: 100%;
+    max-width: 570px;
+    max-height: 271px;
+    margin: 0px 1.3em 1em;
+}
+
+section.HomePic > div.imageLeft > img.pic2_home {
+    width: 100%;
+    max-width: 400px;
+    max-height: 265px;
+    margin: 0px 1.3em 1em;
+}
+
+section.HomePic > div.imageLeft > img.pic3_home {
+    width: 100%;
+    max-width: 400px;
+    max-height: 300px;
+    margin: 0px 1.3em 1em;
+}
+
+section.HomePic > div.imageLeft > img.pic4_home {
+    width: 100%;
+    max-width: 400px;
+    max-height: 163px;
+    margin: 0px 1.3em 1em;
+}
+
+section > div.imageLeft img {
+    float: left;
+    margin: 0px 0px 30px 30px;
+}
+
+section > div.imageLeft1 > article {
+    font-size: 1.5em;
+    margin: 0px 20px 3em .8em;
+    padding: 0px 1em 1em 1em;
+    text-indent: 1em; 
+}
+
+section > div.imageLeft > article {
+    font-size: 1.7em;
+    margin: 0px 20px 1.4em 1em;
+    text-indent: 1em;
+    
+}
+
+h2.center {
+    font-size: 2em;
+    margin: 1em 0px 1em;
+    text-align: center;
+    text-shadow: 2px 2px #777572;
+}
+
+/* About Main */
+
+section h2.people {
+    font-size: 2.4em;
+    margin: 2em 0px 1em;
+    text-align: center;
+    text-shadow: 2px 2px green;
+}
+
+div#about1 > img#family {
+    width: 50%;
+    max-width: 500px;
+    max-height: 374px;
+    float: left;
+    margin: 0px 1.5em 1.5em 1.5em;
+}
+
+div#about1 article p {
+    height: 100%;
+    margin-bottom: 1em;
+    font-size: 1.6em;
+    text-indent: 1em;
+}
+
+div.bio {
+    float: right;
+    width: 50%;
+
+}
+
+div.bio h2 {
+   font-size: 1.7em;
+   margin: 1em 1em 1em 1.3em;
+}
+
+div.bio > img {
+    width: 70%;
+    max-width: 250px;
+    max-height: 250px;
+    float: left;
+    margin: 1.3em 1.4em 1.8em 1.8em;
+    
+}
+
+div.bio > article > p {
+    font-size: 1.2em;
+    padding: 20px;
+    text-indent: 1em;
+}
+
+/* Contact - Main */
+
+div#box-contact section article p {
+    font-size: 1.9em;
+    text-align: center;
+    margin: 1.3em 0px 2.5em;
+}
+
+div#box-contact section h2 {
+    text-align: center;
+    font-size: 1.7em;
+    margin: 0px 0px 2.5em;
+}
+
+form.contact_form {
+    width: 75%;
+    max-width: 900px;
+    max-height: 750px;
+    margin: 2em auto;
+    border-width: 3px;
+    border-color: black;
+    border-style: ridge;
+    background-color: gray;
+}
+
+fieldset {
+    padding: 10px 0px 0px 40px;
+    border: none;
+}
+
+label {
+    display: block;
+    padding: .5em 0px .5em;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+input {
+    display: block;
+    width: 90%;
+    border: 2px solid black;
+    padding: .3em;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+textarea {
+    display: block;
+    width: 90%;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: .3em;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+#submit {
+    width: 6em;
+    border: 0;
+    margin: 0px 0px 30px 0px;
+    padding: 1em;
+    background-color: navy;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+#submit:hover {
+    background-color: aqua;
+    color: black;
+}
+
+/* Roof_Repair - Main */
+
+div#box-roof section #title {
+    margin: 1.1em;
+}
+
+div.roof_1 {
+    float: left;
+    width: 50%;
+    height: 761px;
+    margin-bottom: 4em;
+}
+
+div.roof_2 {
+    float: left;
+    width: 50%;
+    height: 700px;
+}
+
+div.roof_3 {
+    float: left;
+    width: 50%;
+    height: 700px;
+    display: none;
+}
+
+div.roof_1 img.roof1a {
+    width: 85%;
+    max-width: 620px;
+    max-height: 387px;
+    margin-bottom: 1.3em;
+}
+
+div.roof_1 img.roof1b {
+    width: 85%;
+    max-width: 620px;
+    max-height: 387px;
+}
+
+div.roof_2 img.roof2c {
+    width: 85%;
+    max-width: 620px;
+    max-height: 387px;
+    margin: 0px 0px 1.3em 50px;
+}
+
+div.roof_2 img.roof2d {
+    width: 85%;
+    max-width: 620px;
+    max-height: 387px;
+    margin: 0px 0px 1.3em 50px;
+}
+
+section div.roof_1 p {
+    font-size: 1.9em;
+}
+
+div.roof_1 img {
+    margin-left: 1.8em;
+}
+
+div.roof_2 img {
+    
+}
+
+div.roof_2 p, div.roof_2 ul {
+    margin-left: 1.8em;
+}
+
+section div.roof_1 p {
+    font-size: 2em;
+    text-indent: 1em;
+    margin-bottom: 1em;
+}
+
+div.roof_2 > p {
+    font-size: 1.8em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    text-indent: 1em;
+}
+
+section div.roof_2 > ul {
+    font-size: 1.4em;
+    margin-right: 1em;
+    margin-left: 3em;
+}
+
+h2.center2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+
+p.center2 {
+    font-size: 1.8em;
+}
+
+div.roof_1 ul {
+    font-size: 1.7em;
+    margin-left: 1em;
+}
+
+section div.roof_1 {
+    height: 700px;
+}
+
+section div.roof_2 {
+    height: 700px;
+    margin-bottom: 1.8em;
+}
+
+/* Metal, Spray, EPDM, Single - Main */
+
+
+
+@keyframes layer2Anim {
+    0% {opacity: 0;}
+    17% {opacity: 0;}
+    33% {opacity: 1;}
+    50% {opacity: 1;}
+    67% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+@keyframes layer3Anim {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    67% {opacity: 1;}
+    83% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+div.slideShow {
+    position: relative;
+    width: 850px;
+    height: 478px;
+    margin: 30px auto 50px;
+    display: block;
+    background-color: black;
+    border: 5px groove gray;
+    box-shadow: 2px 2px navy;
+}
+
+.placeHolder {
+    width: 850px;
+    visibility: hidden;
+}
+
+h1#title > b {
+    font-size: 1em;
+}
+
+article > h2#sub-menu {
+    font-size: 2em;
+    margin: 0px auto 1.3em;
+    text-align: center;
+}
+
+article p#sub-menu2 {
+    font-size: 1.6em;
+    margin: 0px auto 1.3em;
+}
+
+article blockquote#metal_quote, article blockquote#epdm, article blockquote#single_quote, article blockquote#spray_quote {
+    font-size: 1.5em;
+}
+
+/* Single */
+
+div.layer1Si, div.layer2Si, div.layer3Si {
+    position: absolute;
+    width: 850px;
+    height: 478px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1Si {
+    background-image: url(Images/Pictures/Single_HD_1.jpg);
+    max-width: 636px;
+    max-height: 478px;
+    display: block;
+    margin-left: 12%;
+}
+
+div.layer2Si {
+    background-image: url(Images/Pictures/Single_1.jpg);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3Si {
+    background-image: url(Images/Pictures/Single_2.png);
+    animation: layer3Anim 10s infinite;
+}
+/* Metal */
+
+div.layer1Me, div.layer2Me, div.layer3Me {
+    position: absolute;
+    width: 850px;
+    height: 478px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1Me {
+    background-image: url(Images/Pictures/Metal_HD_1.jpg);
+    max-width: 541px;
+    max-height: 478px;
+    display: block;
+    margin-left: 17%;
+}
+
+div.layer2Me {
+    background-image: url(Images/Pictures/Metal_2.jpg);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3Me {
+    background-image: url(Images/Pictures/Metal_3.jpg);
+    animation: layer3Anim 10s infinite;
+}
+
+/* EPDM */
+
+div.layer1EPDM, div.layer2EPDM, div.layer3EPDM {
+    position: absolute;
+    width: 850px;
+    height: 478px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1EPDM {
+    background-image: url(Images/Pictures/EPDM_HD_1.jpg);
+    max-width: 850px;
+    max-height: 478px;
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2EPDM {
+    background-image: url(Images/Pictures/EPDM_1.jpg);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3EPDM {
+    background-image: url(Images/Pictures/EPDM_2.jpg);
+    animation: layer3Anim 10s infinite;
+}
+
+/* Spray */
+
+div.layer1Sp, div.layer2Sp, div.layer3Sp {
+    position: absolute;
+    width: 850px;
+    height: 478px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1Sp {
+    background-image: url(Images/Pictures/Spray_2.jpg);
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2Sp{
+    background-image: url(Images/Pictures/Spray_1.png);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3Sp {
+    background-image: url(Images/Pictures/Spray_HD_1.jpg);
+    animation: layer3Anim 10s infinite;
+}
+
+/* Footer */
+
+footer#F1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: -100px;
+    background-color: #7B0303;    
+    clear: both;
+}
+
+section#footer1 {
+    width: 100%;
+    height: 100%;
+}
+
+table#TF1 {
+    color: white;
+}
+
+footer#F2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: -100px;
+    background-color: #7B0303;    
+    clear: both;
+    display: none;
+}
+
+table#TF1 tr.footer_row1 th {
+    height: 1em;
+    padding: 3px;
+    font-size: 1.3em;
+}
+
+table#TF1 tr.footer_row2 td {
+    height: 1em;
+    margin: 0px;
+    padding: .2em .8em;
+    font-size: 1.1em;
+}
+
+table#TF1 tr.footer_row3 td {
+    height: 1em;
+    margin: 0px;
+    padding: 3px 0px 8px;
+    font-size: 1.1em
+}
+
+td > p.footer_address {
+    text-align: center;
+    font-size: 1.3em;
+    text-shadow: 2px 2px #293EDA;
+}
+
+table td {
+    width: 33%;
+}
+
+table td > a > p.phone {
+    width: 15em;
+    height: 15px;
+    margin: 5px auto 0px auto;
+    padding: 3px 17px 5px 14px;
+    color: #fff;
+    font-size: .9em;
+    background-color: #2A3BAB;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+table td > a > p.phone:hover {
+    width: 13em;
+    height: 13px;
+    margin: 10px auto 0px auto;
+    padding: 0px 18px 5px 12px;
+    color: black;
+    font-size: .9em;
+    background-color: #66D0C7;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+table td > a > p.phone:active {
+    width: 13em;
+    height: 13px;
+    margin: 10px auto 0px auto;
+    padding: 0px 18px 5px 12px;
+    color: black;
+    font-size: .9em;
+    background-color: #747B8A;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+table#TF1 .copyright {
+    font-size: 1.1em;
+    margin: .4em;
+    padding: .2em;
+    color: #000;
+    clear: both;
+    text-align: center;
+}
+
+table#TF1 td#email p {
+    font-size: 1.1em;
+    width: 17em;
+    color: navy;
+    margin: 0px;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+table#TF1 td#email p:hover {
+    width: 17em;
+    margin: 10px auto 0px;
+    padding: 0px 20px 0px 5px;
+    color: black;
+    font-size: 1.1em;
+    background-color: #888585;
+    text-align: center;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+table#TF1 td#email p:active {
+    width: 17em;
+    margin: 10px auto 0px;
+    padding: 0px 20px 0px 5px;
+    color: white;
+    font-size: 1.1em;
+    background-color: #87B9C4;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+/* Media Queries - Level 2 */
+
+@media screen and (max-width: 1500px) {
+    
+/* Logo Area */
+    
+ul#top-ul {
+    width: 100%;
+    max-width: 815px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+ul#top-ul > li.top-item img#logo1 {
+    width: 100%;
+    max-width: 99px;
+    max-height: 48px;
+}
+
+ul#top-ul > li.top-item img#logo2 {
+    width: 100%;
+    max-width: 70px;
+    max-height: 70px;
+}
+
+ul#top-ul > li.top-item img#logo3 {
+    width: 245px;
+    height: 150px;
+}
+
+ul#top-ul > li.top-item img#logo4 {
+    width: 100%;
+    max-width: 62px;
+    max-height: 69px;
+}
+
+ul#top-ul > li.top-item img#logo5 {
+    width: 100%;
+    max-width: 112px;
+    max-height: 48px;
+}
+
+.top-item {
+    max-width: 100%;
+    position: relative;
+    left: auto;
+    right: auto;
+    float: left;
+    margin: 1.2em 1.4em;
+    padding: 1em auto 1em auto;
+    list-style-type: none;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 1em;
+    font-size: 1.7em;
+    clear: both;
+}
+    
+/* Nav */
+
+img#nav-logo {
+    width: 95px;
+    height: 58px;
+    margin: 5px 3px 3px 3px;
+    float: left;
+}
+
+nav {
+    width: 780px;
+    height: 67px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+
+a.nav-item, a.dropbtn {
+    position: relative;
+    width: auto;
+    height: 40px;
+    font-size: 1.1em;
+    display: inline-block;  
+    padding: 15px 20px;
+    line-height: 40px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 2px 2px #000;
+    text-transform: uppercase;
+}
+    
+/* Sub-Nav */
+    
+ul.dropdown-content {
+    font-size: 1em;
+    position: absolute;
+    min-width: 160px;
+    background-color: #8C8C95;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+    z-index: 1;
+}
+    
+/* All Pages */
+    
+div h1#title {
+    position: relative;
+    margin: .3em auto;
+    padding-bottom: .4em;
+    font-size: 2.7em;
+    color: black;
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px green;
+}
+    
+/* Home Body */
+    
+body#Home {
+    width: 100%;
+    height: 2662px;
+    overflow: scroll;
+}
+    
+div#box-home {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 2150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+    
+/* Home Main */ 
+    
+div#video-center {
+    width: 100%;
+    max-width: 780px;
+    max-height: 439px;
+    margin: .5em auto 2em;
+}
+
+video {
+    width: 100%;
+    max-width: 780px;
+    max-height: 439px;
+    margin: auto;
+    border-style: groove;
+    border-width: 8px;
+    border-color: gray;
+}
+    
+.center1 {
+    font-size: 1.8em;
+    text-align: center;
+    text-shadow: 2px 2px green;
+}
+    
+ul.margin {
+    margin: 28px 15px 20px 68px;
+}
+
+ul.margin > li > h3 {
+    font-size: 1.5em;
+    color: #6B3123;
+    text-shadow: 1px 1px black;
+}
+
+ul.margin > li > p {
+    font-size: 1.5em;
+    margin: 1em 0px;
+}
+    
+section.HomePic > div.imageLeft1 > img#pic1-home {
+    float: left;
+    width: 100%;
+    max-width: 470px;
+    max-height: 224px;
+    margin: .5em 1em 1em .8em;
+}
+    
+section.HomePic > div.imageLeft > img.pic2_home {
+    width: 100%;
+    max-width: 370px;
+    max-height: 245px;
+    margin: 0px 1.3em 1em;
+}
+    
+section.HomePic > div.imageLeft > img.pic3_home {
+    width: 100%;
+    max-width: 370px;
+    max-height: 219px;
+    margin: 0px 1.3em 1em;
+}
+
+section.HomePic > div.imageLeft > img.pic4_home {
+    width: 100%;
+    max-width: 370px;
+    max-height: 147px;
+    margin: 0px 1.3em 1em;
+}
+
+section > div.imageLeft1 > article {
+    font-size: 1.4em;
+    margin: 0px 0px 30px .4em;
+    padding: 0px 1em 1em 1em;
+    text-indent: 1em;
+}
+    
+section > div.imageLeft > article {
+    font-size: 1.4em;
+    margin: 0px 20px 3em 1em;
+    text-indent: 1em;
+    
+}
+    
+h2.reviews {
+    text-align: center;
+    font-size: 1.6em;
+    margin: 0px 0px 40px;
+    text-shadow: 2px 2px #777572;
+}
+    
+h2.center {
+    font-size: 1.6em;
+    margin: 1.8em 0px 1.8em;
+    text-align: center;
+    text-shadow: 2px 2px #777572;
+}
+    
+/* About Body */
+    
+body#About {
+    width: 100%;
+    height: 1453px;
+    overflow: scroll;
+}
+
+div#box-about {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+    
+/* About Main */
+
+section h2.people {
+    clear: both;
+    font-size: 2.1em;
+    margin: 2em 0px 1em;
+    text-align: center;
+    text-shadow: 2px 2px green;
+}
+
+div#about1 > img#family {
+    width: 50%;
+    max-width: 450px;
+    max-height: 336px;
+    float: left;
+    margin: 0px 1.5em 1.5em 1.5em;
+}
+
+div#about1 article p {
+    height: 100%;
+    margin-bottom: 110px;
+    font-size: 1.5em;
+    text-indent: 1em;
+}
+
+div.bio {
+    float: left;
+    width: 50%;
+}
+
+div.bio h2 {
+   font-size: 1.6em;
+   margin: 1em 1em 1em 1.3em;
+}
+
+div.bio > img {
+    width: 70%;
+    max-width: 225px;
+    max-height: 225px;
+    float: left;
+    margin: 1.3em 1.4em 1.8em 1.8em;
+    
+}
+
+div.bio > article > p {
+    font-size: 1.2em;
+    padding: 20px;
+    text-indent: 1em;
+}
+   
+/* Contact Body */
+    
+body#Contact {
+    width: 100%;
+    height: 1663px;
+    overflow: scroll;
+}
+
+div#box-contact {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+/* Contact - Main */
+
+div#box-contact section article p {
+    font-size: 1.7em;
+    text-align: center;
+    margin: 1.3em 0px 2.5em;
+}
+
+div#box-contact section h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0px 0px 2.5em;
+}
+
+form.contact_form {
+    width: 80%;
+    max-width: 900px;
+    max-height: 750px;
+    margin: 2em auto;
+    border-width: 3px;
+    border-color: black;
+    border-style: ridge;
+    background-color: gray;
+}
+
+label {
+    display: block;
+    padding: .5em 0px .5em;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+input {
+    display: block;
+    width: 90%;
+    border: 2px solid black;
+    padding: .3em;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+textarea {
+    display: block;
+    width: 90%;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: .3em;
+    font-size: 16px;
+    border-radius: 4px;
+}
+    
+#submit {
+    width: 5em;
+    border: 0;
+    margin: 0px 0px 30px 0px;
+    padding: 1em;
+    background-color: navy;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 6px;
+}
+    
+/* Metal, Spray, EPDM, Single - Body */
+
+body#Metal {
+    width: 100%;
+    height: 1693px;
+    overflow: scroll;
+}
+
+div#box-metal {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+body#Spray {
+    width: 100%;
+    height: 1393px;
+    overflow: scroll;
+}
+
+div#box-spray {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 880px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+body#EPDM {
+    width: 100%;
+    height: 1503px;
+    overflow: scroll;
+}
+
+div#box-epdm {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 990px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+body#Single {
+    width: 100%;
+    height: 1523px;
+    overflow: scroll;
+}
+
+div#box-single {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1010px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+
+/* Metal, Spray, EPDM, Single - Main */
+
+div.slideShow {
+    position: relative;
+    width: 600px;
+    height: 391px;
+    margin: 30px auto 50px;
+    display: block;
+    background-color: black;
+    border: 5px groove gray;
+    box-shadow: 2px 2px navy;
+}
+
+.placeHolder {
+    width: 600px;
+    visibility: hidden;
+}
+
+h1#title > b {
+    font-size: .8em;
+}
+
+article > h2#sub-menu {
+    font-size: 1.8em;
+    margin: 0px auto 1.3em;
+    text-align: center;
+}
+
+article p#sub-menu2 {
+    font-size: 1.5em;
+    margin: 0px auto 1.3em;
+}
+
+article blockquote#metal_quote, article blockquote#epdm, article blockquote#single_quote, article blockquote#spray_quote {
+    font-size: 1.5em;
+}
+
+/* Single */
+
+div.layer1Si, div.layer2Si, div.layer3Si {
+    position: absolute;
+    width: 600px;
+    height: 391px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1Si {
+    background-image: url(Images/Pictures/Single_HD_1.jpg);
+    max-width: 600px;
+    max-height: 391px;
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2Si {
+    background-image: url(Images/Pictures/Single_1.jpg);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3Si {
+    background-image: url(Images/Pictures/Single_2.png);
+    animation: layer3Anim 10s infinite;
+}
+/* Metal */
+
+div.layer1Me, div.layer2Me, div.layer3Me {
+    position: absolute;
+    width: 600px;
+    height: 391px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1Me {
+    background-image: url(Images/Pictures/Metal_HD_1.jpg);
+    max-width: 541px;
+    max-height: 391px;
+    display: block;
+    margin-left: 5%;
+}
+
+div.layer2Me {
+    background-image: url(Images/Pictures/Metal_2.jpg);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3Me {
+    background-image: url(Images/Pictures/Metal_3.jpg);
+    animation: layer3Anim 10s infinite;
+}
+
+/* EPDM */
+
+div.layer1EPDM, div.layer2EPDM, div.layer3EPDM {
+    position: absolute;
+    width: 600px;
+    height: 391px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1EPDM {
+    background-image: url(Images/Pictures/EPDM_HD_1.jpg);
+    max-width: 600px;
+    max-height: 391px;
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2EPDM {
+    background-image: url(Images/Pictures/EPDM_1.jpg);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3EPDM {
+    background-image: url(Images/Pictures/EPDM_2.jpg);
+    animation: layer3Anim 10s infinite;
+}
+
+/* Spray */
+
+div.layer1Sp, div.layer2Sp, div.layer3Sp {
+    position: absolute;
+    width: 600px;
+    height: 391px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1Sp {
+    background-image: url(Images/Pictures/Spray_2.jpg);
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2Sp{
+    background-image: url(Images/Pictures/Spray_1.png);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3Sp {
+    background-image: url(Images/Pictures/Spray_HD_1.jpg);
+    animation: layer3Anim 10s infinite;
+}
+    
+/* Roof Body */
+    
+body#Roof {
+    width: 100%;
+    height: 1743px;
+    overflow: scroll;
+}
+
+div#box-roof {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+    
+/* Roof Main */
+    
+div#box-roof section #title {
+    font-size: 2.4em;
+    margin: 1.1em;
+}
+    
+div.roof_1 img.roof1a {
+    width: 82%;
+    max-width: 600px;
+    max-height: 368px;
+    margin-bottom: 1.3em;
+}
+
+div.roof_1 img.roof1b {
+    width: 82%;
+    max-width: 600px;
+    max-height: 368px;
+}
+
+div.roof_2 img.roof2c {
+    width: 82%;
+    max-width: 600px;
+    max-height: 368px;
+    margin: 0px 0px 1.3em 50px;
+}
+
+div.roof_2 img.roof2d {
+    width: 82%;
+    max-width: 600px;
+    max-height: 368px;
+    margin: 0px 0px 1.3em 50px;
+}
+    
+section div.roof_1 p {
+    font-size: 1.8em;
+    text-indent: 1em;
+}
+    
+div.roof_2 > p {
+    font-size: 1.7em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    text-indent: 1em;
+}
+    
+div.roof_1 ul {
+    font-size: 1.6em;
+    margin-left: 1em;
+}
+    
+section div.roof_2 > ul {
+    font-size: 1.2em;
+    margin: 0px 1em 1.5em 3em;
+}
+    
+h2.center2 {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 2em;
+}
+
+p.center2 {
+    font-size: 1.8em;
+    margin-bottom: 1.2em;
+}
+    
+section div.roof_1 {
+    height: 580px;
+}
+
+section div.roof_2 {
+    height: 550px;
+    margin-bottom: 1em;
+}
+    
+div.roof_3 {
+    float: left;
+    width: 50%;
+    height: 700px;
+    display: none;
+}
+ 
+/* Footer */
+    
+table#TF1 tr.footer_row1 th {
+    height: 1em;
+    padding: 3px;
+    font-size: 1em;
+}
+
+table#TF1 tr.footer_row2 td {
+    height: 1em;
+    margin: 0px;
+    padding: .2em .8em;
+    font-size: .9em;
+}
+
+table#TF1 tr.footer_row3 td {
+    height: 1em;
+    margin: 0px;
+    padding: 3px 0px 8px;
+    font-size: .9em;
+}
+    
+td > p.footer_address {
+    text-align: center;
+    font-size: 1.2em;
+    text-shadow: 2px 2px #293EDA;
+}
+    
+table#TF1 td#email p {
+    font-size: 1.1em;
+    width: 15em;
+    color: navy;
+    margin: 0px;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+table#TF1 td#email p:hover {
+    width: 15em;
+    margin: 10px auto 0px;
+    padding: 0px 20px 0px 5px;
+    color: black;
+    font-size: 1.1em;
+    background-color: #888585;
+    text-align: center;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+table#TF1 td#email p:active {
+    width: 15em;
+    margin: 10px auto 0px;
+    padding: 0px 20px 0px 5px;
+    color: white;
+    font-size: 1.1em;
+    background-color: #87B9C4;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+    
+table td > a > p.phone {
+    width: 13em;
+    height: 13px;
+    margin: 5px auto 0px auto;
+    padding: 3px 17px 5px 14px;
+    color: #fff;
+    font-size: .8em;
+    background-color: #2A3BAB;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+table td > a > p.phone:hover {
+    width: 10em;
+    height: 11px;
+    margin: 10px auto 0px auto;
+    padding: 0px 18px 5px 12px;
+    color: black;
+    font-size: .8em;
+    background-color: #66D0C7;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+table td > a > p.phone:active {
+    width: 10em;
+    height: 11px;
+    margin: 10px auto 0px auto;
+    padding: 0px 18px 5px 12px;
+    color: black;
+    font-size: .8em;
+    background-color: #747B8A;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+    
+ table#TF1 .copyright {
+    font-size: .9em;
+    margin: .4em;
+    padding: .2em;
+    color: #000;
+    clear: both;
+    text-align: center;
+}
+    
+}
+
+/* Media Quereis - Level 3 */
+
+@media screen and (max-width: 1080px) {
+    
+/* Logo Area */
+    
+ul#top-ul {
+    width: 100%;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+ul#top-ul > li.top-item img#logo1 {
+    width: 100%;
+    max-width: 89px;
+    max-height: 43px;
+}
+
+ul#top-ul > li.top-item img#logo2 {
+    width: 100%;
+    max-width: 60px;
+    max-height: 60px;
+}
+
+ul#top-ul > li.top-item img#logo3 {
+    
+    width: 220px;
+    height: 134px;
+}
+
+ul#top-ul > li.top-item img#logo4 {
+    width: 100%;
+    max-width: 52px;
+    max-height: 58px;
+}
+
+ul#top-ul > li.top-item img#logo5 {
+    width: 100%;
+    max-width: 99px;
+    max-height: 42px;
+}
+
+.top-item {
+    max-width: 100%;
+    position: relative;
+    left: auto;
+    right: auto;
+    float: left;
+    margin: 1.2em 1em;
+    padding: 1em auto 1em auto;
+    list-style-type: none;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 1em;
+    font-size: 1.4em;
+    clear: both;
+}
+    
+/* Nav */
+
+img#nav-logo {
+    width: 85px;
+    height: 52px;
+    margin: 7px;
+    float: left;
+}
+
+nav {
+    width: 680px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+
+a.nav-item, a.dropbtn {
+    position: relative;
+    width: auto;
+    height: 40px;
+    font-size: .9em;
+    display: inline-block;  
+    padding: 13px 11px;
+    line-height: 40px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 2px 2px #000;
+    text-transform: uppercase;
+}
+    
+/* Sub-Nav */
+    
+ul.dropdown-content {
+    font-size: .8em;
+    position: absolute;
+    min-width: 160px;
+    background-color: #8C8C95;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+    z-index: 1;
+}
+    
+i {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    margin: 0px 8px;
+    padding: 3px;
+    display: inline-block;
+}
+    
+/* All Pages */
+    
+div h1#title {
+    position: relative;
+    margin: .3em auto;
+    padding-bottom: .4em;
+    font-size: 2.4em;
+    color: black;
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px green;
+}
+    
+/* Home Body */
+    
+body#Home {
+    width: 100%;
+    height: 2386px;
+    overflow: scroll;
+}
+    
+div#box-home {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+    
+/* Home Main */
+    
+div#video-center {
+    width: 100%;
+    max-width: 620px;
+    max-height: 349px;
+    margin: .5em auto 3em;
+}
+
+video {
+    width: 100%;
+    max-width: 620px;
+    max-height: 349px;
+    margin: auto;
+    border-style: groove;
+    border-width: 8px;
+    border-color: gray;
+}
+    
+.center1 {
+    font-size: 1.6em;
+    text-align: center;
+    text-shadow: 2px 2px green;
+}
+    
+ul.margin {
+    margin: 28px 15px 20px 58px;
+}
+
+ul.margin > li > h3 {
+    font-size: 1.3em;
+    color: #6B3123;
+    text-shadow: 1px 1px black;
+}
+
+ul.margin > li > p {
+    font-size: 1.3em;
+    margin: 1em 0px;
+}
+    
+section.HomePic > div.imageLeft1 > img#pic1-home {
+    width: 100%;
+    max-width: 410px;
+    max-height: 195px;
+    margin: .4em .8em 1.2em 1.1em;
+}
+    
+section.HomePic > div.imageLeft > img.pic2_home {
+    width: 100%;
+    max-width: 335px;
+    max-height: 222px;
+    margin: 0px 1.3em 1em;
+}
+    
+section.HomePic > div.imageLeft > img.pic3_home {
+    width: 100%;
+    max-width: 335px;
+    max-height: 199px;
+    margin: 0px 1.3em 1em;
+}
+
+section.HomePic > div.imageLeft > img.pic4_home {
+    width: 100%;
+    max-width: 335px;
+    max-height: 133px;
+    margin: 0px 1.3em 1em;
+}
+
+section > div.imageLeft1 > article {
+    font-size: 1.2em;
+    margin: .3em .5em 30px 1em;
+    padding: 0px 1em 1em .8em;
+    text-indent: 1em; 
+}
+    
+section > div.imageLeft > article {
+    font-size: 1.2em;
+    margin: 0px 20px 3em 1em;
+    text-indent: 1em;   
+}
+    
+h2.reviews {
+    text-align: center;
+    font-size: 1.4em;
+    margin: 0px 0px 40px;
+    text-shadow: 2px 2px #777572;
+}
+    
+h2.center {
+    font-size: 1.4em;
+    margin: 1.8em 0px 1.8em;
+    text-align: center;
+    text-shadow: 2px 2px #777572;
+}
+    
+/* About Body */
+    
+body#About {
+    width: 100%;
+    height: 1387px;
+    overflow: scroll;
+}
+
+div#box-about {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+    
+/* About Main */
+
+section h2.people {
+    clear: both;
+    font-size: 1.9em;
+    margin: 2em 0px 1em;
+    text-align: center;
+    text-shadow: 2px 2px green;
+}
+
+div#about1 > img#family {
+    width: 50%;
+    max-width: 390px;
+    max-height: 292px;
+    float: left;
+    margin: 0px 1.5em 1.5em 1.5em;
+}
+
+div#about1 article p {
+    height: 100%;
+    margin-bottom: 50px;
+    font-size: 1.2em;
+    text-indent: 1em;
+}
+
+div.bio {
+    float: left;
+    width: 50%;
+}
+
+div.bio h2 {
+   font-size: 1.4em;
+   margin: 1em 1em 1em 1.3em;
+}
+
+div.bio > img {
+    width: 70%;
+    max-width: 175px;
+    max-height: 175px;
+    float: left;
+    margin: 1.3em 1.4em 1.8em 1.8em;
+    
+}
+
+div.bio > article > p {
+    font-size: 1em;
+    padding: 20px;
+    text-indent: 1em;
+}
+    
+/* Contact Body */
+    
+body#Contact {
+    width: 100%;
+    height: 1587px;
+    overflow: scroll;
+}
+
+div#box-contact {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+
+/* Contact - Main */
+
+div#box-contact section article p {
+    font-size: 1.4em;
+    text-align: center;
+    margin: 1.3em 0px 2.5em;
+}
+
+div#box-contact section h2 {
+    text-align: center;
+    font-size: 1.3em;
+    margin: 0px 0px 2.5em;
+}
+
+form.contact_form {
+    width: 80%;
+    max-width: 900px;
+    max-height: 750px;
+    margin: 2em auto;
+    border-width: 3px;
+    border-color: black;
+    border-style: ridge;
+    background-color: gray;
+}
+
+label {
+    display: block;
+    padding: .5em 0px .5em;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+input {
+    display: block;
+    width: 90%;
+    border: 2px solid black;
+    padding: .3em;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+textarea {
+    display: block;
+    width: 90%;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: .3em;
+    font-size: 14px;
+    border-radius: 4px;
+}
+    
+#submit {
+    width: 5em;
+    border: 0;
+    margin: 0px 0px 30px 0px;
+    padding: 1em;
+    background-color: navy;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 6px;
+}
+    
+/* Metal, Spray, EPDM, Single - Body */
+
+body#Metal {
+    width: 100%;
+    height: 1537px;
+    overflow: scroll;
+}
+
+div#box-metal {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+body#Spray {
+    width: 100%;
+    height: 1307px;
+    overflow: scroll;
+}
+
+div#box-spray {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+body#EPDM {
+    width: 100%;
+    height: 1347px;
+    overflow: scroll;
+}
+
+div#box-epdm {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 860px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+body#Single {
+    width: 100%;
+    height: 1317px;
+    overflow: scroll;
+}
+
+div#box-single {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+
+/* Metal, Spray, EPDM, Single - Main */
+
+div.slideShow {
+    position: relative;
+    width: 450px;
+    height: 293px;
+    margin: 30px auto 50px;
+    display: block;
+    background-color: black;
+    border: 5px groove gray;
+    box-shadow: 2px 2px navy;
+}
+
+.placeHolder {
+    width: 450px;
+    visibility: hidden;
+}
+
+h1#title > b {
+    font-size: .7em;
+}
+
+article > h2#sub-menu {
+    font-size: 1.2em;
+    margin: 0px auto 1.3em;
+    text-align: center;
+}
+
+article p#sub-menu2 {
+    font-size: 1.2em;
+    margin: 0px auto 1.3em;
+}
+
+article blockquote#metal_quote, article blockquote#epdm, article blockquote#single_quote, article blockquote#spray_quote {
+    font-size: 1.2em;
+}
+
+/* Single */
+
+div.layer1Si, div.layer2Si, div.layer3Si {
+    position: absolute;
+    width: 450px;
+    height: 293px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1Si {
+    background-image: url(Images/Pictures/Single_HD_1.jpg);
+    max-width: 450px;
+    max-height: 293px;
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2Si {
+    background-image: url(Images/Pictures/Single_1.jpg);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3Si {
+    background-image: url(Images/Pictures/Single_2.png);
+    animation: layer3Anim 10s infinite;
+}
+/* Metal */
+
+div.layer1Me, div.layer2Me, div.layer3Me {
+    position: absolute;
+    width: 450px;
+    height: 293px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1Me {
+    background-image: url(Images/Pictures/Metal_HD_1.jpg);
+    max-width: 450px;
+    max-height: 293px;
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2Me {
+    background-image: url(Images/Pictures/Metal_2.jpg);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3Me {
+    background-image: url(Images/Pictures/Metal_3.jpg);
+    animation: layer3Anim 10s infinite;
+}
+
+/* EPDM */
+
+div.layer1EPDM, div.layer2EPDM, div.layer3EPDM {
+    position: absolute;
+    width: 450px;
+    height: 293px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1EPDM {
+    background-image: url(Images/Pictures/EPDM_HD_1.jpg);
+    max-width: 450px;
+    max-height: 293px;
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2EPDM {
+    background-image: url(Images/Pictures/EPDM_1.jpg);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3EPDM {
+    background-image: url(Images/Pictures/EPDM_2.jpg);
+    animation: layer3Anim 10s infinite;
+}
+
+/* Spray */
+
+div.layer1Sp, div.layer2Sp, div.layer3Sp {
+    position: absolute;
+    width: 450px;
+    height: 293px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1Sp {
+    background-image: url(Images/Pictures/Spray_2.jpg);
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2Sp{
+    background-image: url(Images/Pictures/Spray_1.png);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3Sp {
+    background-image: url(Images/Pictures/Spray_HD_1.jpg);
+    animation: layer3Anim 10s infinite;
+}
+    
+/* Roof Body */
+    
+body#Roof {
+    width: 100%;
+    height: 1087px;
+    overflow: scroll;
+}
+
+div#box-roof {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+    
+/* Roof Main */
+    
+div#box-roof section #title {
+    font-size: 2em;
+    margin: 1.1em;
+}
+    
+div.roof_1 img.roof1a {
+    width: 78%;
+    max-width: 570px;
+    max-height: 350px;
+    margin-bottom: 1.3em;
+}
+
+div.roof_1 img.roof1b {
+    width: 78%;
+    max-width: 570px;
+    max-height: 350px;
+}
+
+div.roof_2 img.roof2c {
+    width: 78%;
+    max-width: 570px;
+    max-height: 350px;
+    margin: 0px 0px 1.3em 50px;
+}
+
+div.roof_2 img.roof2d {
+    width: 78%;
+    max-width: 570px;
+    max-height: 350px;
+    margin: 0px 0px 1.3em 50px;
+}
+    
+section div.roof_1 p {
+    font-size: 1.4em;
+    text-indent: 1em;
+}
+    
+div.roof_2 > p {
+    font-size: 1.5em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    text-indent: 1em;
+}
+    
+div.roof_1 ul {
+    font-size: 1.1em;
+    margin-left: 1em;
+}
+    
+section div.roof_2 > ul {
+    font-size: .8em;
+    margin: 0px 1em 1.5em 3em;
+}
+    
+h2.center2 {
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 2em;
+}
+
+p.center2 {
+    font-size: 1.4em;
+    margin-bottom: 1.2em;
+}
+    
+section div.roof_1 {
+    height: 390px;
+}
+
+section div.roof_2 {
+    height: 350px;
+    
+}
+    
+div.roof_3 {
+    float: left;
+    width: 50%;
+    height: 700px;
+    display: none;
+}
+    
+/* Footer */
+    
+table#TF1 tr.footer_row1 th {
+    height: 1em;
+    padding: 3px;
+    font-size: .9em;
+}
+
+table#TF1 tr.footer_row2 td {
+    height: 1em;
+    margin: 0px;
+    padding: .2em .8em;
+    font-size: .8em;
+}
+
+table#TF1 tr.footer_row3 td {
+    height: 1em;
+    margin: 0px;
+    padding: 3px 0px 8px;
+    font-size: .8em;
+}
+    
+td > p.footer_address {
+    text-align: center;
+    font-size: 1.2em;
+    text-shadow: 2px 2px #293EDA;
+}
+
+table#TF1 td#email p {
+    font-size: 1em;
+    width: 15em;
+    color: navy;
+    margin: 0px;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+table#TF1 td#email p:hover {
+    width: 15em;
+    margin: 10px auto 0px;
+    padding: 0px 12px 0px 12px;
+    color: black;
+    font-size: 1em;
+    background-color: #888585;
+    text-align: center;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+table#TF1 td#email p:active {
+    width: 15em;
+    margin: 10px auto 0px;
+    padding: 0px 12px 0px 12px;
+    color: white;
+    font-size: 1em;
+    background-color: #87B9C4;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+    
+table td > a > p.phone {
+    width: 11em;
+    height: 10px;
+    margin: 5px auto 0px auto;
+    padding: 3px 17px 7px 14px;
+    color: #fff;
+    font-size: .7em;
+    background-color: #2A3BAB;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+table td > a > p.phone:hover {
+    width: 8em;
+    height: 11px;
+    margin: 10px auto 0px auto;
+    padding: 3px 18px 5px 12px;
+    color: black;
+    font-size: .7em;
+    background-color: #66D0C7;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+table td > a > p.phone:active {
+    width: 8em;
+    height: 11px;
+    margin: 10px auto 0px auto;
+    padding: 3px 18px 5px 12px;
+    color: black;
+    font-size: .7em;
+    background-color: #747B8A;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+    
+ table#TF1 .copyright {
+    font-size: .8em;
+    margin: .4em;
+    padding: .2em;
+    color: #000;
+    clear: both;
+    text-align: center;
+}
+
+}
+
+/* Media Quereis - Level 4 */
+
+@media screen and (max-width: 715px) {
+    
+/* Logo Area */
+    
+ul#top-ul {
+    width: 100%;
+    max-width: 565px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+ul#top-ul > li.top-item img#logo1 {
+    width: 100%;
+    max-width: 84px;
+    max-height: 40px;
+}
+
+ul#top-ul > li.top-item img#logo2 {
+    width: 100%;
+    max-width: 55px;
+    max-height: 55px;
+}
+
+ul#top-ul > li.top-item img#logo3 {
+    width: 170px;
+    height: 104px;
+}
+
+ul#top-ul > li.top-item img#logo4 {
+    width: 100%;
+    max-width: 47px;
+    max-height: 53px;
+}
+
+ul#top-ul > li.top-item img#logo5 {
+    width: 100%;
+    max-width: 94px;
+    max-height: 40px;
+}
+
+.top-item {
+    max-width: 100%;
+    position: relative;
+    left: auto;
+    right: auto;
+    float: left;
+    margin: 1em .7em;
+    padding: 1em auto 1em auto;
+    list-style-type: none;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 1em;
+    font-size: 1.2em;
+    clear: both;
+}
+    
+/* Nav */
+    
+img#nav-logo {
+    width: 75px;
+    height: 46px;
+    margin: 5px 3px 10px 3px;
+    float: left;
+}
+
+header {
+    position: absolute;
+    position: sticky;
+    top: 0;
+    clear: both;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin: 0px;
+    padding: 0px;
+    background-color: #2E2D2D;
+    z-index: 1;
+}
+    
+nav {
+    width: 800px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    display: none;
+}
+
+nav > ul {
+    text-align: center;
+    width: 22%;
+    background-color: #A0C080;
+    display: none;
+}
+    
+nav > ul > li {
+    width: 100%;
+    float: none;
+    display: block;
+    margin: 0px;
+    border-bottom: 1px solid gray;
+    font-size: .8em;
+}
+    
+i {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    margin: 0px 8px;
+    padding: 3px;
+    display: inline-block;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    display: inline-block;
+}
+    
+a.nav-item, a.dropbtn {
+    position: relative;
+    width: 89%;
+    height: 35px;
+    display: inline-block;  
+    line-height: 35px;
+    color: #fff;
+    background-color: #8C8C95;
+    text-decoration: none;
+    text-shadow: 2px 2px #000;
+    text-transform: uppercase;
+}
+    
+#toggle:checked + nav > ul, #toggle:checked + nav {
+    display: block;
+    }
+    
+label#hamburger1 {
+    position: relative;
+    width: 35px;
+    margin: 0px 0px 0px 90px;
+    display: block;
+    font-size: 30px;
+    line-height: 25px;
+	cursor: pointer;
+    color: white;
+}
+    
+ul.dropdown-content {
+    font-size: 1em;
+    position: absolute;
+    top: 179px;
+    right: auto;
+    min-width: 160px;
+    background-color: #8C8C95;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+    z-index: 1;
+}
+    
+/* All Pages */
+    
+div h1#title {
+    position: relative;
+    margin: .3em auto;
+    padding-bottom: .4em;
+    font-size: 1.7em;
+    color: black;
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px green;
+}
+    
+/* Home Body */
+    
+body#Home {
+    width: 100%;
+    height: 2708px;
+    overflow: scroll;
+}
+    
+div#box-home {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 2250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+    
+/* Home Main */
+    
+div#video-center {
+    width: 100%;
+    max-width: 390px;
+    max-height: 219px;
+    margin: .5em auto 2.4em;
+}
+
+video {
+    width: 100%;
+    max-width: 390px;
+    max-height: 219px;
+    margin: auto;
+    border-style: groove;
+    border-width: 8px;
+    border-color: gray;
+}
+    
+.center1 {
+    font-size: 1.2em;
+    text-align: center;
+    text-shadow: 2px 2px green;
+}
+    
+ul.margin {
+    margin: 23px 15px 20px 47px;
+}
+
+ul.margin > li > h3 {
+    font-size: 1em;
+    color: #6B3123;
+    text-shadow: 1px 1px black;
+}
+
+ul.margin > li > p {
+    font-size: 1em;
+    margin: 1em 0px;
+}
+    
+section > div.imageLeft1 > article {
+    font-size: .9em;
+    margin: 1.2em 2.3em 22px 2em;
+    padding: 1em 1em 1em .8em;
+    text-indent: 1em;
+    clear: both;
+}
+    
+section > div.imageLeft > article {
+    font-size: .9em;
+    margin: 0px 20px 3em 1em;
+    text-indent: 1em;
+    clear: both;
+}
+    
+section.HomePic > div.imageLeft1 > img#pic1-home {
+    width: 100%;
+    max-width: 390px;
+    max-height: 186px;
+    margin: 0px 1.2em 2.2em 10%;
+}
+    
+section.HomePic > div.imageLeft > img.pic2_home {
+    width: 100%;
+    max-width: 305px;
+    max-height: 202px;
+    margin: 0px 1.3em 1.5em 15%;
+}
+    
+section.HomePic > div.imageLeft > img.pic3_home {
+    width: 100%;
+    max-width: 305px;
+    max-height: 181px;
+    margin: 0px 1.3em 1.5em 15%;
+}
+
+section.HomePic > div.imageLeft > img.pic4_home {
+    width: 100%;
+    max-width: 305px;
+    max-height: 121px;
+    margin: 0px 1.3em 1.5em 15%;
+}
+    
+h2.reviews {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0px 0px 40px;
+    text-shadow: 2px 2px #777572;
+}
+    
+h2.center {
+    font-size: 1.2em;
+    margin: 1.8em 0px 1.8em;
+    text-align: center;
+    text-shadow: 2px 2px #777572;
+}
+    
+/* About Body */
+    
+body#About {
+    width: 100%;
+    height: 1288px;
+    overflow: scroll;
+}
+
+div#box-about {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+    
+/* About Main */
+
+section h2.people {
+    clear: both;
+    font-size: 1.3em;
+    margin: 2em 0px 1em;
+    text-align: center;
+    text-shadow: 2px 2px green;
+}
+
+div#about1 > img#family {
+    width: 50%;
+    max-width: 300px;
+    max-height: 224px;
+    float: left;
+    margin: 0px 1.5em 1.5em 1.5em;
+}
+
+div#about1 article p {
+    height: 100%;
+    margin-bottom: 30px;
+    font-size: .9em;
+    text-indent: 1em;
+}
+
+div.bio {
+    float: left;
+    width: 50%;
+}
+
+div.bio h2 {
+   font-size: 1.2em;
+   margin: 1em 1em 1em 1.3em;
+}
+
+div.bio > img {
+    width: 70%;
+    max-width: 130px;
+    max-height: 130px;
+    float: left;
+    margin: 1.3em 1.4em 1.8em 1.8em;
+    
+}
+
+div.bio > article > p {
+    font-size: 0.9em;
+    padding: 20px;
+    text-indent: 1em;
+}
+    
+/* Contact Body */
+    
+body#Contact {
+    width: 100%;
+    height: 1568px;
+    overflow: scroll;
+}
+
+div#box-contact {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+/* Contact - Main */
+
+div#box-contact section article p {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 1.3em 0px 2.5em;
+}
+
+div#box-contact section h2 {
+    text-align: center;
+    font-size: 1em;
+    margin: 0px 0px 2.5em;
+}
+
+form.contact_form {
+    width: 80%;
+    max-width: 750px;
+    max-height: 600px;
+    margin: 2em auto;
+    border-width: 3px;
+    border-color: black;
+    border-style: ridge;
+    background-color: gray;
+}
+
+label {
+    display: block;
+    padding: .5em 0px .5em;
+    text-transform: uppercase;
+    font-size: .9em;
+}
+
+input {
+    display: block;
+    width: 85%;
+    border: 2px solid black;
+    padding: .3em;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+textarea {
+    display: block;
+    width: 85%;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: .3em;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+#submit {
+    width: 4em;
+    height: 2.5em;
+    font-size: .9em;
+    border: 0;
+    margin: 0px 0px 30px 0px;
+    padding: .6em;
+    background-color: navy;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 6px;
+}
+    
+/* Metal, Spray, EPDM, Single - Body */
+
+body#Metal {
+    width: 100%;
+    height: 1258px;
+    overflow: scroll;
+}
+
+div#box-metal {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+body#Spray {
+    width: 100%;
+    height: 1148px;
+    overflow: scroll;
+}
+
+div#box-spray {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 690px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+body#EPDM {
+    width: 100%;
+    height: 1128px;
+    overflow: scroll;
+}
+
+div#box-epdm {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 670px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+body#Single {
+    width: 100%;
+    height: 1108px;
+    overflow: scroll;
+}
+
+div#box-single {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+
+/* Metal, Spray, EPDM, Single - Main */
+
+div.slideShow {
+    position: relative;
+    width: 400px;
+    height: 261px;
+    margin: 30px auto 50px;
+    display: block;
+    background-color: black;
+    border: 5px groove gray;
+    box-shadow: 2px 2px navy;
+}
+
+.placeHolder {
+    width: 400px;
+    visibility: hidden;
+}
+
+h1#title > b {
+    font-size: .7em;
+}
+
+article > h2#sub-menu {
+    font-size: 1em;
+    margin: 0px auto 1.3em;
+    text-align: center;
+}
+
+article p#sub-menu2 {
+    font-size: 1em;
+    margin: 0px auto 1.3em;
+}
+
+article blockquote#metal_quote, article blockquote#epdm, article blockquote#single_quote, article blockquote#spray_quote {
+    font-size: 1em;
+}
+
+/* Single */
+
+div.layer1Si, div.layer2Si, div.layer3Si {
+    position: absolute;
+    width: 400px;
+    height: 261px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1Si {
+    background-image: url(Images/Pictures/Single_HD_1.jpg);
+    max-width: 400px;
+    max-height: 261px;
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2Si {
+    background-image: url(Images/Pictures/Single_1.jpg);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3Si {
+    background-image: url(Images/Pictures/Single_2.png);
+    animation: layer3Anim 10s infinite;
+}
+/* Metal */
+
+div.layer1Me, div.layer2Me, div.layer3Me {
+    position: absolute;
+    width: 400px;
+    height: 261px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1Me {
+    background-image: url(Images/Pictures/Metal_HD_1.jpg);
+    max-width: 400px;
+    max-height: 261px;
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2Me {
+    background-image: url(Images/Pictures/Metal_2.jpg);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3Me {
+    background-image: url(Images/Pictures/Metal_3.jpg);
+    animation: layer3Anim 10s infinite;
+}
+
+/* EPDM */
+
+div.layer1EPDM, div.layer2EPDM, div.layer3EPDM {
+    position: absolute;
+    width: 400px;
+    height: 261px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1EPDM {
+    background-image: url(Images/Pictures/EPDM_HD_1.jpg);
+    max-width: 400px;
+    max-height: 261px;
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2EPDM {
+    background-image: url(Images/Pictures/EPDM_1.jpg);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3EPDM {
+    background-image: url(Images/Pictures/EPDM_2.jpg);
+    animation: layer3Anim 10s infinite;
+}
+
+/* Spray */
+
+div.layer1Sp, div.layer2Sp, div.layer3Sp {
+    position: absolute;
+    width: 400px;
+    height: 261px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1Sp {
+    background-image: url(Images/Pictures/Spray_2.jpg);
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2Sp{
+    background-image: url(Images/Pictures/Spray_1.png);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3Sp {
+    background-image: url(Images/Pictures/Spray_HD_1.jpg);
+    animation: layer3Anim 10s infinite;
+}
+    
+/* Roof Body */
+    
+body#Roof {
+    width: 100%;
+    height: 1458px;
+    overflow: scroll;
+}
+
+div#box-roof {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+    
+/* Roof Main */
+    
+div#box-roof section #title {
+    font-size: 1.5em;
+    margin: 1.1em;
+}
+    
+div.roof_1 img.roof1a {
+    width: 100%;
+    max-width: 650px;
+    max-height: 399px;
+    margin-bottom: 1.3em;
+}
+
+div.roof_1 img.roof1b {
+    width: 100%;
+    max-width: 650px;
+    max-height: 399px;
+}
+
+div.roof_3 img.roof3c {
+    width: 100%;
+    max-width: 650px;
+    max-height: 399px;
+    margin: 0px 0px 1.3em 50px;
+}
+
+div.roof_3 img.roof3d {
+    width: 100%;
+    max-width: 650px;
+    max-height: 399px;
+    margin: 0px 0px 1.3em 50px;
+}
+    
+section div.roof_1 p {
+    width: 100%;
+    font-size: 1.2em;
+    margin: 0px 0px 1em 10%;
+    text-indent: 1em;
+}
+    
+div.roof_3 > p {
+    width: 100%;
+    font-size: 1.2em;
+    margin-right: 1em;
+    margin: 0px 0px 1.5em 10%;
+    text-indent: 1em;
+}
+    
+div.roof_1 ul {
+    width: 100%;
+    font-size: .9em;
+    margin: 0px 0px 1em 14%;
+}
+    
+section div.roof_3 > ul {
+    width: 100%;
+    font-size: .9em;
+    margin: 0px 0px 1em 14%;
+    
+}
+    
+h2.center2 {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
+p.center2 {
+    font-size: 1.2em;
+    margin-bottom: 1.2em;
+    text-indent: 1em;
+}
+    
+section div.roof_1 {
+    height: 470px;
+}
+
+section div.roof_2 {
+    height: 520px;
+    margin-bottom: 1.8em;
+}
+    
+div.roof_1 {
+    float: none;
+    width: 75%;
+    height: 650px;
+    margin: 0px 0px 1.8em 8%;
+}
+
+div.roof_2 {
+    float: left;
+    width: 50%;
+    height: 700px;
+    display: none;
+}
+    
+div.roof_3 {
+    float: none;
+    width: 75%;
+    height: 600px;
+    display: block;
+}
+    
+/* Footer */
+    
+table#TF1 tr.footer_row1 th {
+    height: 1em;
+    padding: 3px;
+    font-size: .8em;
+}
+
+table#TF1 tr.footer_row2 td {
+    height: 1em;
+    margin: 0px;
+    padding: .2em .8em;
+    font-size: .7em;
+}
+
+table#TF1 tr.footer_row3 td {
+    height: 1em;
+    margin: 0px;
+    padding: 3px 0px 8px;
+    font-size: .7em;
+}
+    
+td > p.footer_address {
+    text-align: center;
+    font-size: 1.2em;
+    text-shadow: 2px 2px #293EDA;
+}
+    
+table#TF1 td#email p {
+    font-size: 1em;
+    width: 15em;
+    color: navy;
+    margin: 0px;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+table#TF1 td#email p:hover {
+    width: 15em;
+    margin: 10px auto 0px;
+    padding: 0px 12px 0px 12px;
+    color: black;
+    font-size: 1em;
+    background-color: #888585;
+    text-align: center;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+table#TF1 td#email p:active {
+    width: 15em;
+    margin: 10px auto 0px;
+    padding: 0px 12px 0px 12px;
+    color: white;
+    font-size: 1em;
+    background-color: #87B9C4;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+    
+table td > a > p.phone {
+    width: 8em;
+    height: 8px;
+    margin: 5px auto 0px auto;
+    padding: 3px 17px 7px 14px;
+    color: #fff;
+    font-size: .6em;
+    background-color: #2A3BAB;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+table td > a > p.phone:hover {
+    width: 7em;
+    height: 8px;
+    margin: 10px auto 0px auto;
+    padding: 3px 12px 8px 12px;
+    color: black;
+    font-size: .6em;
+    background-color: #66D0C7;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+table td > a > p.phone:active {
+    width: 7em;
+    height: 8px;
+    margin: 10px auto 0px auto;
+    padding: 3px 12px 5px 12px;
+    color: black;
+    font-size: .6em;
+    background-color: #747B8A;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+        
+ table#TF1 .copyright {
+    font-size: .7em;
+    margin: .4em;
+    padding: .2em;
+    color: #000;
+    clear: both;
+    text-align: center;
+}
+    
+}
+
+/* Media Quereis - Level 5 */
+
+@media screen and (max-width: 630px) {
+    
+/* Logo Area */
+    
+ul#top-ul {
+    width: 100%;
+    max-width: 475px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+ul#top-ul > li.top-item img#logo1 {
+    width: 100%;
+    max-width: 74px;
+    max-height: 36px;
+}
+
+ul#top-ul > li.top-item img#logo2 {
+    width: 100%;
+    max-width: 48px;
+    max-height: 48px;
+}
+
+ul#top-ul > li.top-item img#logo3 {
+    width: 100%;
+    width: 155px;
+    height: 95px;
+}
+
+ul#top-ul > li.top-item img#logo4 {
+    width: 100%;
+    max-width: 42px;
+    max-height: 47px;
+}
+
+ul#top-ul > li.top-item img#logo5 {
+    width: 100%;
+    max-width: 90px;
+    max-height: 38px;
+}
+
+.top-item {
+    max-width: 100%;
+    position: relative;
+    left: auto;
+    right: auto;
+    float: left;
+    margin: .8em .4em;
+    padding: 1em auto 1em auto;
+    list-style-type: none;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 1em;
+    font-size: 1em;
+    clear: both;
+}
+    
+/* Nav */
+    
+img#nav-logo {
+    width: 69px;
+    height: 42px;
+    margin: 5px 3px 10px 3px;
+    float: left;
+}
+
+label#hamburger1 {
+    position: relative;
+    width: 35px;
+    margin: 0px 0px 0px 80px;
+    display: block;
+    font-size: 26px;
+    line-height: 25px;
+	cursor: pointer;
+    color: white;
+}
+    
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    display: inline-block;
+}
+    
+ul.dropdown-content {
+    font-size: 1em;
+    position: absolute;
+    top: 173px;
+    right: auto;
+    min-width: 160px;
+    background-color: #8C8C95;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+    z-index: 1;
+}
+    
+/* All Pages */
+    
+div h1#title {
+    position: relative;
+    margin: .3em auto;
+    padding-bottom: .4em;
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px green;
+}
+    
+/* Home Body */
+    
+body#Home {
+    width: 100%;
+    height: 2710px;
+    overflow: scroll;
+}
+    
+div#box-home {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 2280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+    
+/* Home Main */
+    
+div#video-center {
+    width: 100%;
+    max-width: 330px;
+    max-height: 186px;
+    margin: .5em auto 2.4em;
+}
+
+video {
+    width: 100%;
+    max-width: 330px;
+    max-height: 186px;
+    margin: auto;
+    border-style: groove;
+    border-width: 8px;
+    border-color: gray;
+}
+    
+.center1 {
+    font-size: 1em;
+    text-align: center;
+    text-shadow: 2px 2px green;
+}
+    
+ul.margin {
+    margin: 18px 17px 14px 38px;
+}
+
+ul.margin > li > h3 {
+    font-size: .8em;
+    color: #6B3123;
+    text-shadow: 1px 1px black;
+}
+
+ul.margin > li > p {
+    font-size: .8em;
+    margin: 1em 0px;
+}
+    
+section.HomePic > div.imageLeft1 > img#pic1-home {
+    width: 100%;
+    max-width: 325px;
+    max-height: 155px;
+    margin: 0px 0px 1.2em 2.2em;
+}
+    
+section.HomePic > div.imageLeft > img.pic2_home {
+    width: 100%;
+    max-width: 280px;
+    max-height: 186px;
+    margin: 0px 1.3em 1.5em 15%;
+}
+    
+section.HomePic > div.imageLeft > img.pic3_home {
+    width: 100%;
+    max-width: 280px;
+    max-height: 166px;
+    margin: 0px 1.3em 1.5em 15%;
+}
+
+section.HomePic > div.imageLeft > img.pic4_home {
+    width: 100%;
+    max-width: 280px;
+    max-height: 111px;
+    margin: 0px 1.3em 1.5em 15%;
+}
+
+section > div.imageLeft1 > article {
+    font-size: .9em;
+    margin: 1em 1.8em .5em 2.5em;
+    padding: 1em 1em 1em .8em;
+    text-indent: 1em;
+    clear: both;
+}
+    
+section > div.imageLeft > article {
+    font-size: .9em;
+    margin: 0px 20px 3em 1em;
+    text-indent: 1em;
+    clear: both;
+}
+    
+h2.reviews {
+    text-align: center;
+    font-size: 1.1em;
+    margin: 0px 0px 40px;
+    text-shadow: 2px 2px #777572;
+}
+    
+h2.center {
+    font-size: 1.1em;
+    margin: 1.8em 0px 1.8em;
+    text-align: center;
+    text-shadow: 2px 2px #777572;
+}
+    
+/* About Body */
+    
+body#About {
+    width: 100%;
+    height: 1710px;
+    overflow: scroll;
+}
+
+div#box-about {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+    
+/* About Main */
+
+section h2.people {
+    clear: both;
+    font-size: 1.1em;
+    margin: 2em 0px 1em;
+    text-align: center;
+    text-shadow: 2px 2px green;
+}
+
+div#about1 > img#family {
+    width: 70%;
+    max-width: 370px;
+    max-height: 277px;
+    float: none;
+    margin: 1em 0px 1.8em 15%;
+}
+
+div#about1 article p {
+    height: 100%;
+    margin-bottom: 30px;
+    font-size: .9em;
+    text-indent: 1em;
+}
+
+div.bio {
+    float: none;
+    width: 50%;
+    margin: 0px auto 0px;
+}
+
+div.bio h2 {
+   font-size: 1em;
+   margin: 1em;
+   text-align: center;
+}
+
+div.bio > img {
+    width: 70%;
+    max-width: 230px;
+    max-height: 230px;
+    float: none;
+    margin: 1.3em 0px 1.8em 17%;
+    
+}
+
+div.bio > article > p {
+    width: 100%;
+    font-size: 0.9em;
+    padding: 0px;
+    text-indent: 1em;
+    text-align: center;
+}
+    
+/* Contact Body */
+    
+body#Contact {
+    width: 100%;
+    height: 1410px;
+    overflow: scroll;
+}
+
+div#box-contact {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+/* Contact - Main */
+
+div#box-contact section article p {
+    font-size: 1em;
+    text-align: center;
+    margin: 1.3em 0px 2.5em;
+}
+
+div#box-contact section h2 {
+    text-align: center;
+    font-size: .9em;
+    margin: 0px 0px 2.5em;
+}
+
+form.contact_form {
+    width: 80%;
+    max-width: 750px;
+    max-height: 600px;
+    margin: 2em auto;
+    border-width: 3px;
+    border-color: black;
+    border-style: ridge;
+    background-color: gray;
+}
+
+label {
+    display: block;
+    padding: .5em 0px .5em;
+    text-transform: uppercase;
+    font-size: .7em;
+}
+
+input {
+    display: block;
+    width: 85%;
+    border: 2px solid black;
+    padding: .3em;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+textarea {
+    display: block;
+    width: 85%;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: .3em;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+#submit {
+    width: 4.5em;
+    height: 2.8em;
+    font-size: .7em;
+    border: 0;
+    margin: 0px 0px 30px 0px;
+    padding: .6em;
+    background-color: navy;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 6px;
+}
+    
+/* Metal, Spray, EPDM, Single - Body */
+
+body#Metal {
+    width: 100%;
+    height: 1030px;
+    overflow: scroll;
+}
+
+div#box-metal {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+body#Spray {
+    width: 100%;
+    height: 980px;
+    overflow: scroll;
+}
+
+div#box-spray {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+body#EPDM {
+    width: 100%;
+    height: 910px;
+    overflow: scroll;
+}
+
+div#box-epdm {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+body#Single {
+    width: 100%;
+    height: 940px;
+    overflow: scroll;
+}
+
+div#box-single {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 510px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+
+/* Metal, Spray, EPDM, Single - Main */
+
+div.slideShow {
+    position: relative;
+    width: 310px;
+    height: 202px;
+    margin: 30px auto 50px;
+    display: block;
+    background-color: black;
+    border: 5px groove gray;
+    box-shadow: 2px 2px navy;
+}
+
+.placeHolder {
+    width: 310px;
+    visibility: hidden;
+}
+
+h1#title > b {
+    font-size: .6em;
+}
+
+article > h2#sub-menu {
+    font-size: .8em;
+    margin: 0px auto 1.3em;
+    text-align: center;
+}
+
+article p#sub-menu2 {
+    font-size: .8em;
+    margin: 0px auto 1.3em;
+}
+
+article blockquote#metal_quote, article blockquote#epdm, article blockquote#single_quote, article blockquote#spray_quote {
+    font-size: .8em;
+}
+
+/* Single */
+
+div.layer1Si, div.layer2Si, div.layer3Si {
+    position: absolute;
+    width: 310px;
+    height: 202px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1Si {
+    background-image: url(Images/Pictures/Single_HD_1.jpg);
+    max-width: 310px;
+    max-height: 202px;
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2Si {
+    background-image: url(Images/Pictures/Single_1.jpg);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3Si {
+    background-image: url(Images/Pictures/Single_2.png);
+    animation: layer3Anim 10s infinite;
+}
+/* Metal */
+
+div.layer1Me, div.layer2Me, div.layer3Me {
+    position: absolute;
+    width: 310px;
+    height: 202px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1Me {
+    background-image: url(Images/Pictures/Metal_HD_1.jpg);
+    max-width: 310px;
+    max-height: 202px;
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2Me {
+    background-image: url(Images/Pictures/Metal_2.jpg);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3Me {
+    background-image: url(Images/Pictures/Metal_3.jpg);
+    animation: layer3Anim 10s infinite;
+}
+
+/* EPDM */
+
+div.layer1EPDM, div.layer2EPDM, div.layer3EPDM {
+    position: absolute;
+    width: 310px;
+    height: 202px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1EPDM {
+    background-image: url(Images/Pictures/EPDM_HD_1.jpg);
+    max-width: 310px;
+    max-height: 202px;
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2EPDM {
+    background-image: url(Images/Pictures/EPDM_1.jpg);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3EPDM {
+    background-image: url(Images/Pictures/EPDM_2.jpg);
+    animation: layer3Anim 10s infinite;
+}
+
+/* Spray */
+
+div.layer1Sp, div.layer2Sp, div.layer3Sp {
+    position: absolute;
+    width: 310px;
+    height: 202px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1Sp {
+    background-image: url(Images/Pictures/Spray_2.jpg);
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2Sp{
+    background-image: url(Images/Pictures/Spray_1.png);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3Sp {
+    background-image: url(Images/Pictures/Spray_HD_1.jpg);
+    animation: layer3Anim 10s infinite;
+}
+    
+/* Roof Body */
+    
+body#Roof {
+    width: 100%;
+    height: 1630px;
+    overflow: scroll;
+}
+
+div#box-roof {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+    
+/* Roof Main */
+    
+div#box-roof section #title {
+    font-size: 1.2em;
+    margin: 1.1em;
+}
+    
+div.roof_1 img.roof1a {
+    width: 100%;
+    max-width: 610px;
+    max-height: 374px;
+    margin-bottom: 1.3em;
+}
+
+div.roof_1 img.roof1b {
+    width: 100%;
+    max-width: 610px;
+    max-height: 374px;
+    max-height: 399px;
+}
+
+div.roof_3 img.roof3c {
+    width: 100%;
+    max-width: 610px;
+    max-height: 374px;
+    margin: 0px 0px 1.3em 50px;
+}
+
+div.roof_3 img.roof3d {
+    width: 100%;
+    max-width: 610px;
+    max-height: 374px;
+    margin: 0px 0px 1.3em 50px;
+}
+    
+section div.roof_1 p {
+    width: 100%;
+    font-size: .9em;
+    margin: 0px 0px 1em 10%;
+    text-indent: 1em;
+}
+    
+div.roof_3 > p {
+    width: 100%;
+    font-size: .9em;
+    margin-right: 1em;
+    margin: 0px 0px 1.5em 10%;
+    text-indent: 1em;
+}
+    
+div.roof_1 ul {
+    width: 100%;
+    font-size: .8em;
+    margin-left: 1em;
+    margin: 0px 0px 1em 14%;
+}
+    
+section div.roof_3 > ul {
+    width: 100%;
+    font-size: .8em;
+    margin: 0px 0px 1em 14%;
+    
+}
+    
+h2.center2 {
+    text-align: center;
+    font-size: .9em;
+    margin-bottom: 2em;
+}
+
+p.center2 {
+    font-size: .9em;
+    margin-bottom: 1.2em;
+    text-indent: 1em;
+}
+    
+section div.roof_1 {
+    height: 470px;
+}
+
+section div.roof_2 {
+    height: 520px;
+    margin-bottom: 1.8em;
+}
+    
+div.roof_1 {
+    float: none;
+    width: 75%;
+    height: 500px;
+    margin: 0px 0px 1em 8%;
+}
+
+div.roof_2 {
+    float: left;
+    width: 50%;
+    height: 700px;
+    display: none;
+}
+    
+div.roof_3 {
+    float: none;
+    width: 75%;
+    height: 600px;
+    display: block;
+}
+
+/* Footer */
+    
+footer#F1 {
+    display: none;
+    }
+    
+footer#F2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: -100px;
+    color: white;
+    background-color: #7B0303;    
+    clear: both;
+    display: block;
+}
+
+table#TF2 tr.short td {
+    padding: .3em 0px;
+    font-size: .8em;
+    text-align: center;
+    }
+    
+table#TF2 tr.tall td {
+    padding: .5em .4em;
+    font-size: .9em;
+    text-align: center; 
+    }
+    
+td > p.footer_address {
+    text-align: center;
+    font-size: 1.1em;
+    text-shadow: 2px 2px #293EDA;
+}
+    
+table#TF2 tr.short td p.copyright {
+    margin: .8em 0px;
+    font-size: .9em;
+    color: #000;
+    }
+
+table#TF2 td#email2 p {
+    font-size: .9em;
+    width: 15em;
+    color: navy;
+    margin: 0px;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+table#TF2 td#email2 p:hover {
+    width: 15em;
+    margin: 10px auto 0px;
+    padding: 3px 6px 3px 6px;
+    color: black;
+    font-size: .8em;
+    background-color: #888585;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+table#TF2 td#email2 p:active {
+    width: 15em;
+    margin: 10px auto 0px;
+    padding: 3px 6px 3px 6px;
+    color: white;
+    font-size: .8em;
+    background-color: #87B9C4;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+    
+table td > a > p.phone {
+    width: 11em;
+    height: 9px;
+    margin: 5px auto 0px auto;
+    padding: 2px 4px 8px 4px;
+    color: #fff;
+    font-size: .9em;
+    background-color: #2A3BAB;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+    
+table td > a > p.phone:hover {
+    width: 9em;
+    height: 8px;
+    margin: 10px auto 0px auto;
+    padding: 2px 4px 8px 4px;
+    color: black;
+    font-size: .9em;
+    background-color: #66D0C7;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+table td > a > p.phone:active {
+    width: 9em;
+    height: 8px;
+    margin: 10px auto 0px auto;
+    padding: 2px 4px 8px 4px;
+    color: black;
+    font-size: .9em;
+    background-color: #747B8A;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+    
+}
+
+/* Media Quereis - Level 6 */
+
+@media screen and (max-width: 530px) {
+    
+/* Logo Area */
+    
+ul#top-ul {
+    width: 100%;
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+ul#top-ul > li.top-item img#logo1 {
+    width: 100%;
+    max-width: 61px;
+    max-height: 29px;
+}
+
+ul#top-ul > li.top-item img#logo2 {
+    width: 100%;
+    max-width: 35px;
+    max-height: 35px;
+}
+
+ul#top-ul > li.top-item img#logo3 {
+    width: 100%;
+    max-width: 115px;
+    max-height: 70px;
+}
+
+ul#top-ul > li.top-item img#logo4 {
+    width: 100%;
+    max-width: 31px;
+    max-height: 35px;
+}
+
+ul#top-ul > li.top-item img#logo5 {
+    width: 100%;
+    max-width: 66px;
+    max-height: 28px;
+}
+
+.top-item {
+    max-width: 100%;
+    position: relative;
+    left: auto;
+    right: auto;
+    float: left;
+    margin: .5em .3em;
+    padding: 1em auto 1em auto;
+    list-style-type: none;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 1em;
+    font-size: .9em;
+    clear: both;
+}
+    
+/* Nav */
+    
+img#nav-logo {
+    width: 62px;
+    height: 38px;
+    margin: 3px 3px 10px 4px;
+    float: left;
+}
+    
+label#hamburger1 {
+    position: relative;
+    width: 35px;
+    margin: 0px 0px 0px 75px;
+    display: block;
+    font-size: 20px;
+    line-height: 25px;
+	cursor: pointer;
+    color: white;
+}
+    
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    display: inline-block;
+}
+    
+ul.dropdown-content {
+    font-size: 1em;
+    position: absolute;
+    top: 169px;
+    right: auto;
+    min-width: 160px;
+    background-color: #8C8C95;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+    z-index: 1;
+}
+    
+/* All Pages */
+    
+div h1#title {
+    position: relative;
+    margin: .3em auto;
+    padding-bottom: .4em;
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px green;
+}
+    
+/* Home Body */
+    
+body#Home {
+    width: 100%;
+    height: 2450px;
+    overflow: scroll;
+}
+    
+div#box-home {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 2048px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+    
+/* Home Main */
+    
+div#video-center {
+    width: 100%;
+    max-width: 300px;
+    max-height: 169px;
+    margin: .5em auto 2.4em;
+}
+
+video {
+    width: 100%;
+    max-width: 300px;
+    max-height: 169px;
+    margin: auto;
+    border-style: groove;
+    border-width: 8px;
+    border-color: gray;
+}
+    
+.center1 {
+    font-size: .8em;
+    text-align: center;
+    text-shadow: 2px 2px green;
+}
+    
+ul.margin {
+    margin: 15px 17px 14px 32px;
+}
+
+ul.margin > li > h3 {
+    font-size: .6em;
+    color: #6B3123;
+    text-shadow: 1px 1px black;
+}
+
+ul.margin > li > p {
+    font-size: .7em;
+    margin: 1em 0px;
+}
+    
+section.HomePic > div.imageLeft1 > img#pic1-home {
+    width: 100%;
+    max-width: 290px;
+    max-height: 138px;
+    margin: 0px 0px 1.5em 1.5em;
+}
+    
+section.HomePic > div.imageLeft > img.pic2_home {
+    width: 100%;
+    max-width: 240px;
+    max-height: 159px;
+    margin: 0px 1.3em 1.5em 15%;
+}
+    
+section.HomePic > div.imageLeft > img.pic3_home {
+    width: 100%;
+    max-width: 240px;
+    max-height: 142px;
+    margin: 0px 1.3em 1.5em 15%;
+}
+
+section.HomePic > div.imageLeft > img.pic4_home {
+    width: 100%;
+    max-width: 240px;
+    max-height: 95px;
+    margin: 0px 1.3em 1.5em 15%;
+}
+
+section > div.imageLeft1 > article {
+    font-size: .8em;
+    margin: 1.5em 1.8em 22px 2.5em;
+    padding: 1em 1em 1em .8em;
+    text-indent: 1em;
+    clear: both;
+}
+    
+section > div.imageLeft > article {
+    font-size: .8em;
+    margin: 0px 20px 3em 1em;
+    text-indent: 1em;
+    clear: both;
+}
+    
+h2.reviews {
+    text-align: center;
+    font-size: 1em;
+    margin: 0px 0px 40px;
+    text-shadow: 2px 2px #777572;
+}
+    
+h2.center {
+    font-size: 1em;
+    margin: 1.8em 0px 1.8em;
+    text-align: center;
+    text-shadow: 2px 2px #777572;
+}
+    
+/* About Body */
+    
+body#About {
+    width: 100%;
+    height: 1622px;
+    overflow: scroll;
+}
+
+div#box-about {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+    
+/* About Main */
+
+section h2.people {
+    clear: both;
+    font-size: 1em;
+    margin: 2em 0px 1em;
+    text-align: center;
+    text-shadow: 2px 2px green;
+}
+
+div#about1 > img#family {
+    width: 70%;
+    max-width: 340px;
+    max-height: 254px;
+    float: none;
+    margin: 1em 0px 1.8em 15%;
+}
+
+div#about1 article p {
+    height: 100%;
+    margin-bottom: 30px;
+    font-size: .8em;
+    text-indent: 1em;
+}
+
+div.bio {
+    float: none;
+    width: 50%;
+    margin: 0px auto 0px;
+}
+
+div.bio h2 {
+   font-size: .9em;
+   margin: 1em;
+   text-align: center;
+}
+
+div.bio > img {
+    width: 70%;
+    max-width: 180px;
+    max-height: 180px;
+    float: none;
+    margin: 1.3em 0px 1.8em 17%;
+    
+}
+
+div.bio > article > p {
+    width: 100%;
+    font-size: 0.8em;
+    padding: 0px;
+    text-indent: 1em;
+    text-align: center;
+}
+    
+/* Contact Body */
+    
+body#Contact {
+    width: 100%;
+    height: 1232px;
+    overflow: scroll;
+}
+
+div#box-contact {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+/* Contact - Main */
+
+div#box-contact section article p {
+    font-size: .8em;
+    text-align: center;
+    margin: 1.3em 0px 2.5em;
+}
+
+div#box-contact section h2 {
+    text-align: center;
+    font-size: .7em;
+    margin: 0px 0px 2.5em;
+}
+
+form.contact_form {
+    width: 80%;
+    max-width: 750px;
+    max-height: 600px;
+    margin: 2em auto;
+    border-width: 3px;
+    border-color: black;
+    border-style: ridge;
+    background-color: gray;
+}
+
+label {
+    display: block;
+    padding: .5em 0px .5em;
+    text-transform: uppercase;
+    font-size: .6em;
+}
+
+input {
+    display: block;
+    width: 85%;
+    border: 2px solid black;
+    padding: .3em;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+textarea {
+    display: block;
+    width: 85%;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: .3em;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+#submit {
+    width: 4.5em;
+    height: 2.8em;
+    font-size: .6em;
+    border: 0;
+    margin: 0px 0px 30px 0px;
+    padding: .6em;
+    background-color: navy;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 6px;
+}
+    
+/* Metal, Spray, EPDM, Single - Body */
+
+body#Metal {
+    width: 100%;
+    height: 962px;
+    overflow: scroll;
+}
+
+div#box-metal {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+body#Spray {
+    width: 100%;
+    height: 902px;
+    overflow: scroll;
+}
+
+div#box-spray {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+body#EPDM {
+    width: 100%;
+    height: 852px;
+    overflow: scroll;
+}
+
+div#box-epdm {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+body#Single {
+    width: 100%;
+    height: 872px;
+    overflow: scroll;
+}
+
+div#box-single {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 470px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+
+/* Metal, Spray, EPDM, Single - Main */
+
+div.slideShow {
+    position: relative;
+    width: 250px;
+    height: 163px;
+    margin: 30px auto 50px;
+    display: block;
+    background-color: black;
+    border: 5px groove gray;
+    box-shadow: 2px 2px navy;
+}
+
+.placeHolder {
+    width: 250px;
+    visibility: hidden;
+}
+
+h1#title > b {
+    font-size: .5em;
+}
+
+article > h2#sub-menu {
+    font-size: .7em;
+    margin: 0px auto 1.3em;
+    text-align: center;
+}
+
+article p#sub-menu2 {
+    font-size: .7em;
+    margin: 0px auto 1.3em;
+}
+
+article blockquote#metal_quote, article blockquote#epdm, article blockquote#single_quote, article blockquote#spray_quote {
+    font-size: .7em;
+}
+
+/* Single */
+
+div.layer1Si, div.layer2Si, div.layer3Si {
+    position: absolute;
+    width: 250px;
+    height: 163px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1Si {
+    background-image: url(Images/Pictures/Single_HD_1.jpg);
+    max-width: 250px;
+    max-height: 163px;
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2Si {
+    background-image: url(Images/Pictures/Single_1.jpg);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3Si {
+    background-image: url(Images/Pictures/Single_2.png);
+    animation: layer3Anim 10s infinite;
+}
+/* Metal */
+
+div.layer1Me, div.layer2Me, div.layer3Me {
+    position: absolute;
+    width: 250px;
+    height: 163px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1Me {
+    background-image: url(Images/Pictures/Metal_HD_1.jpg);
+    max-width: 250px;
+    max-height: 163px;
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2Me {
+    background-image: url(Images/Pictures/Metal_2.jpg);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3Me {
+    background-image: url(Images/Pictures/Metal_3.jpg);
+    animation: layer3Anim 10s infinite;
+}
+
+/* EPDM */
+
+div.layer1EPDM, div.layer2EPDM, div.layer3EPDM {
+    position: absolute;
+    width: 250px;
+    height: 163px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1EPDM {
+    background-image: url(Images/Pictures/EPDM_HD_1.jpg);
+    max-width: 250px;
+    max-height: 163px;
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2EPDM {
+    background-image: url(Images/Pictures/EPDM_1.jpg);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3EPDM {
+    background-image: url(Images/Pictures/EPDM_2.jpg);
+    animation: layer3Anim 10s infinite;
+}
+
+/* Spray */
+
+div.layer1Sp, div.layer2Sp, div.layer3Sp {
+    position: absolute;
+    width: 250px;
+    height: 163px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1Sp {
+    background-image: url(Images/Pictures/Spray_2.jpg);
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2Sp{
+    background-image: url(Images/Pictures/Spray_1.png);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3Sp {
+    background-image: url(Images/Pictures/Spray_HD_1.jpg);
+    animation: layer3Anim 10s infinite;
+}
+    
+/* Roof Body */
+    
+body#Roof {
+    width: 100%;
+    height: 2114px;
+    overflow: scroll;
+}
+
+div#box-roof {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+    
+/* Roof Main */
+    
+div#box-roof section #title {
+    font-size: 1em;
+    margin: 1.1em;
+}
+    
+div.roof_1 img.roof1a {
+    width: 100%;
+    max-width: 500px;
+    max-height: 307px;
+    margin-bottom: 1.3em;
+}
+
+div.roof_1 img.roof1b {
+    width: 100%;
+    max-width: 500px;
+    max-height: 307px;
+    max-height: 399px;
+}
+
+div.roof_3 img.roof3c {
+    width: 100%;
+    max-width: 500px;
+    max-height: 307px;
+    margin: 0px 0px 1.3em 50px;
+}
+
+div.roof_3 img.roof3d {
+    width: 100%;
+    max-width: 500px;
+    max-height: 307px;
+    margin: 0px 0px 1.3em 50px;
+}
+    
+section div.roof_1 p {
+    width: 100%;
+    font-size: .8em;
+    margin: 0px 0px 1em 10%;
+    text-indent: 1em;
+}
+    
+div.roof_3 > p {
+    width: 100%;
+    font-size: .8em;
+    margin-right: 1em;
+    margin: 0px 0px 1.5em 10%;
+    text-indent: 1em;
+}
+    
+div.roof_1 ul {
+    width: 100%;
+    font-size: .7em;
+    margin-left: 1em;
+    margin: 0px 0px 1em 14%;
+}
+    
+section div.roof_3 > ul {
+    width: 100%;
+    font-size: .7em;
+    margin: 0px 0px 1em 14%;
+    
+}
+    
+h2.center2 {
+    text-align: center;
+    font-size: .8em;
+    margin-bottom: 2em;
+}
+
+p.center2 {
+    font-size: .8em;
+    margin-bottom: 1.2em;
+    text-indent: 1em;
+}
+    
+section div.roof_1 {
+    height: 470px;
+}
+
+section div.roof_2 {
+    height: 520px;
+    margin-bottom: 1.8em;
+}
+    
+div.roof_1 {
+    float: none;
+    width: 75%;
+    height: 500px;
+    margin: 0px 0px 1em 8%;
+}
+
+div.roof_2 {
+    float: left;
+    width: 50%;
+    height: 700px;
+    display: none;
+}
+    
+div.roof_3 {
+    float: none;
+    width: 75%;
+    height: 600px;
+    display: block;
+}
+    
+/* Footer */
+    
+footer#F1 {
+    display: none;
+    }
+    
+footer#F2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: -100px;
+    color: white;
+    background-color: #7B0303;    
+    clear: both;
+    display: block;
+}
+
+table#TF2 tr.short td {
+    padding: .3em 0px;
+    font-size: .7em;
+    text-align: center;
+    }
+    
+table#TF2 tr.tall td {
+    padding: .8em .4em;
+    font-size: .7em;
+    text-align: center; 
+    }
+    
+td > p.footer_address {
+    text-align: center;
+    font-size: 1.2em;
+    text-shadow: 2px 2px #293EDA;
+}
+    
+table#TF2 tr.short td p.copyright {
+    margin: .8em 0px;
+    font-size: .9em;
+    color: #000;
+    }
+    
+table#TF2 td#email2 p {
+    font-size: .8em;
+    width: 15em;
+    color: navy;
+    margin: 0px;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+table#TF2 td#email2 p:hover {
+    width: 15em;
+    margin: 10px auto 0px;
+    padding: 3px 6px 3px 6px;
+    color: black;
+    font-size: .7em;
+    background-color: #888585;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+table#TF2 td#email2 p:active {
+    width: 15em;
+    margin: 10px auto 0px;
+    padding: 3px 6px 3px 6px;
+    color: white;
+    font-size: .7em;
+    background-color: #87B9C4;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+    
+table td > a > p.phone {
+    width: 11em;
+    height: 9px;
+    margin: 5px auto 0px auto;
+    padding: 3px 2px 7px 2px;
+    color: #fff;
+    font-size: .9em;
+    background-color: #2A3BAB;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+    
+table td > a > p.phone:hover {
+    width: 9em;
+    height: 8px;
+    margin: 10px auto 0px auto;
+    padding: 2px 4px 8px 4px;
+    color: black;
+    font-size: .9em;
+    background-color: #66D0C7;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+table td > a > p.phone:active {
+    width: 9em;
+    height: 8px;
+    margin: 10px auto 0px auto;
+    padding: 2px 4px 8px 4px;
+    color: black;
+    font-size: .9em;
+    background-color: #747B8A;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+}
+
+/* Media Quereis - Level 7 */
+
+@media screen and (max-width: 430px) {
+    
+/* Logo Area */
+    
+ul#top-ul {
+    width: 100%;
+    max-width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+ul#top-ul > li.top-item img#logo1 {
+    width: 100%;
+    max-width: 53px;
+    max-height: 25px;
+}
+
+ul#top-ul > li.top-item img#logo2 {
+    width: 100%;
+    max-width: 27px;
+    max-height: 27px;
+}
+
+ul#top-ul > li.top-item img#logo3 {
+    width: 100%;
+    max-width: 90px;
+    max-height: 55px;
+}
+
+ul#top-ul > li.top-item img#logo4 {
+    width: 100%;
+    max-width: 28px;
+    max-height: 31px;
+}
+
+ul#top-ul > li.top-item img#logo5 {
+    width: 100%;
+    max-width: 59px;
+    max-height: 25px;
+}
+
+.top-item {
+    max-width: 100%;
+    position: relative;
+    left: auto;
+    right: auto;
+    float: left;
+    margin: .3em .2em;
+    padding: 1em auto 1em auto;
+    list-style-type: none;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 1em;
+    font-size: .8em;
+    clear: both;
+}
+    
+label#hamburger1 {
+    position: relative;
+    width: 35px;
+    margin: 0px 0px 0px 110px;
+    display: block;
+    font-size: 20px;
+    line-height: 25px;
+	cursor: pointer;
+    color: white;
+}
+    
+/* Nav */
+    
+img#nav-logo {
+    width: 53px;
+    height: 32px;
+    margin: 6px 3px 13px 4px;
+    float: left;
+}
+    
+label#hamburger1 {
+    position: relative;
+    width: 35px;
+    margin: 0px 0px 0px 65px;
+    display: block;
+    font-size: 18px;
+    line-height: 25px;
+	cursor: pointer;
+    color: white;
+}
+    
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    display: inline-block;
+}
+    
+ul.dropdown-content {
+    font-size: 1em;
+    position: absolute;
+    top: 165px;
+    right: auto;
+    min-width: 160px;
+    background-color: #8C8C95;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+    z-index: 1;
+}
+    
+/* All Pages */
+    
+div h1#title {
+    position: relative;
+    margin: .3em auto;
+    padding-bottom: .4em;
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px green;
+}
+    
+/* Home Body */
+    
+body#Home {
+    width: 100%;
+    height: 1902px;
+    overflow: scroll;
+}
+    
+div#box-home {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1520px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+    
+/* Home Main */
+    
+div#video-center {
+    width: 100%;
+    max-width: 240px;
+    max-height: 135px;
+    margin: .5em auto 2.4em;
+}
+
+video {
+    width: 100%;
+    max-width: 240px;
+    max-height: 135px;
+    margin: auto;
+    border-style: groove;
+    border-width: 8px;
+    border-color: gray;
+}
+    
+.center1 {
+    font-size: .7em;
+    text-align: center;
+    text-shadow: 2px 2px green;
+}
+    
+ul.margin {
+    margin: 12px 12px 12px 28px;
+}
+
+ul.margin > li > h3 {
+    font-size: .5em;
+    color: #6B3123;
+    text-shadow: 1px 1px black;
+}
+
+ul.margin > li > p {
+    font-size: .6em;
+    margin: 1em 0px;
+}
+    
+section.HomePic > div.imageLeft1 > img#pic1-home {
+    width: 100%;
+    max-width: 250px;
+    max-height: 119px;
+    margin: 0px 0px 1em .8em;
+}
+    
+section.HomePic > div.imageLeft > img.pic2_home {
+    width: 100%;
+    max-width: 200px;
+    max-height: 133px;
+    margin: 0px 1.3em 1.5em 10%;
+}
+    
+section.HomePic > div.imageLeft > img.pic3_home {
+    width: 100%;
+    max-width: 200px;
+    max-height: 119px;
+    margin: 0px 1.3em 1.5em 10%;
+}
+
+section.HomePic > div.imageLeft > img.pic4_home {
+    width: 100%;
+    max-width: 240px;
+    max-height: 79px;
+    margin: 0px 1.3em 1.5em 5%;
+}
+
+section > div.imageLeft1 > article {
+    font-size: .6em;
+    margin: .5em 1em 22px 1.5em;
+    padding: 1em 0px 1em 0px;
+    text-indent: 1em;
+    clear: both;
+}
+    
+section > div.imageLeft > article {
+    font-size: .6em;
+    margin: 0px 20px 3em 1em;
+    text-indent: 1em;
+    clear: both;
+}
+    
+h2.reviews {
+    text-align: center;
+    font-size: .7em;
+    margin: 0px 0px 40px;
+    text-shadow: 2px 2px #777572;
+}
+    
+h2.center {
+    font-size: .7em;
+    margin: 1.8em 0px 1.8em;
+    text-align: center;
+    text-shadow: 2px 2px #777572;
+}
+    
+/* About Body */
+    
+body#About {
+    width: 100%;
+    height: 1462px;
+    overflow: scroll;
+}
+
+div#box-about {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+    
+/* About Main */
+
+section h2.people {
+    clear: both;
+    font-size: .9em;
+    margin: 2em 0px 1em;
+    text-align: center;
+    text-shadow: 2px 2px green;
+}
+
+div#about1 > img#family {
+    width: 70%;
+    max-width: 310px;
+    max-height: 232px;
+    float: none;
+    margin: 1em 0px 1.8em 15%;
+}
+
+div#about1 article p {
+    height: 100%;
+    margin-bottom: 30px;
+    font-size: .7em;
+    text-indent: 1em;
+}
+
+div.bio {
+    float: none;
+    width: 50%;
+    margin: 0px auto 0px;
+}
+
+div.bio h2 {
+   font-size: .8em;
+   margin: 1em;
+   text-align: center;
+}
+
+div.bio > img {
+    width: 70%;
+    max-width: 160px;
+    max-height: 160px;
+    float: none;
+    margin: 1.3em 0px 1.8em 17%;
+    
+}
+
+div.bio > article > p {
+    width: 100%;
+    font-size: 0.7em;
+    padding: 0px;
+    text-indent: 1em;
+    text-align: center;
+}
+    
+/* Contact Body */
+    
+body#Contact {
+    width: 100%;
+    height: 1042px;
+    overflow: scroll;
+}
+
+div#box-contact {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 660px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+/* Contact - Main */
+
+div#box-contact section article p {
+    font-size: .7em;
+    text-align: center;
+    margin: 1.3em 0px 2.5em;
+}
+
+div#box-contact section h2 {
+    text-align: center;
+    font-size: .7em;
+    margin: 0px 0px 2.5em;
+}
+
+form.contact_form {
+    width: 80%;
+    max-width: 750px;
+    max-height: 600px;
+    margin: 2em auto;
+    border-width: 3px;
+    border-color: black;
+    border-style: ridge;
+    background-color: gray;
+}
+
+label {
+    display: block;
+    padding: .5em 0px .5em;
+    text-transform: uppercase;
+    font-size: .5em;
+}
+
+input {
+    display: block;
+    width: 85%;
+    border: 2px solid black;
+    padding: .3em;
+    font-size: 10px;
+    border-radius: 4px;
+}
+
+textarea {
+    display: block;
+    width: 85%;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: .3em;
+    font-size: 10px;
+    border-radius: 4px;
+}
+
+#submit {
+    width: 4.5em;
+    height: 2.8em;
+    font-size: .5em;
+    border: 0;
+    margin: 0px 0px 30px 0px;
+    padding: .6em;
+    background-color: navy;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 6px;
+}
+    
+/* Metal, Spray, EPDM, Single - Body */
+
+body#Metal {
+    width: 100%;
+    height: 881px;
+    overflow: scroll;
+}
+
+div#box-metal {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+body#Spray {
+    width: 100%;
+    height: 780px;
+    overflow: scroll;
+}
+
+div#box-spray {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 398px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+body#EPDM {
+    width: 100%;
+    height: 762px;
+    overflow: scroll;
+}
+
+div#box-epdm {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+body#Single {
+    width: 100%;
+    height: 772px;
+    overflow: scroll;
+}
+
+div#box-single {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 390px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+
+
+/* Metal, Spray, EPDM, Single - Main */
+
+div.slideShow {
+    position: relative;
+    width: 200px;
+    height: 130px;
+    margin: 30px auto 50px;
+    display: block;
+    background-color: black;
+    border: 5px groove gray;
+    box-shadow: 2px 2px navy;
+}
+
+.placeHolder {
+    width: 200px;
+    visibility: hidden;
+}
+
+h1#title > b {
+    font-size: .5em;
+}
+
+article > h2#sub-menu {
+    font-size: .6em;
+    margin: 0px auto 1.3em;
+    text-align: center;
+}
+
+article p#sub-menu2 {
+    font-size: .6em;
+    margin: 0px auto 1.3em;
+}
+
+article blockquote#metal_quote, article blockquote#epdm, article blockquote#single_quote, article blockquote#spray_quote {
+    font-size: .6em;
+}
+
+/* Single */
+
+div.layer1Si, div.layer2Si, div.layer3Si {
+    position: absolute;
+    width: 200px;
+    height: 130px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1Si {
+    background-image: url(Images/Pictures/Single_HD_1.jpg);
+    max-width: 200px;
+    max-height: 130px;
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2Si {
+    background-image: url(Images/Pictures/Single_1.jpg);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3Si {
+    background-image: url(Images/Pictures/Single_2.png);
+    animation: layer3Anim 10s infinite;
+}
+/* Metal */
+
+div.layer1Me, div.layer2Me, div.layer3Me {
+    position: absolute;
+    width: 200px;
+    height: 130px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1Me {
+    background-image: url(Images/Pictures/Metal_HD_1.jpg);
+    max-width: 200px;
+    max-height: 130px;
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2Me {
+    background-image: url(Images/Pictures/Metal_2.jpg);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3Me {
+    background-image: url(Images/Pictures/Metal_3.jpg);
+    animation: layer3Anim 10s infinite;
+}
+
+/* EPDM */
+
+div.layer1EPDM, div.layer2EPDM, div.layer3EPDM {
+    position: absolute;
+    width: 200px;
+    height: 130px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1EPDM {
+    background-image: url(Images/Pictures/EPDM_HD_1.jpg);
+    max-width: 200px;
+    max-height: 130px;
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2EPDM {
+    background-image: url(Images/Pictures/EPDM_1.jpg);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3EPDM {
+    background-image: url(Images/Pictures/EPDM_2.jpg);
+    animation: layer3Anim 10s infinite;
+}
+
+/* Spray */
+
+div.layer1Sp, div.layer2Sp, div.layer3Sp {
+    position: absolute;
+    width: 200px;
+    height: 130px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.layer1Sp {
+    background-image: url(Images/Pictures/Spray_2.jpg);
+    display: block;
+    margin-left: 0px;
+}
+
+div.layer2Sp{
+    background-image: url(Images/Pictures/Spray_1.png);
+    animation: layer2Anim 10s infinite;
+}
+
+div.layer3Sp {
+    background-image: url(Images/Pictures/Spray_HD_1.jpg);
+    animation: layer3Anim 10s infinite;
+}
+    
+/* Roof Body */
+    
+body#Roof {
+    width: 100%;
+    height: 2081px;
+    overflow: scroll;
+}
+
+div#box-roof {
+    position: absolute;
+    left: 11%;
+    width: 73%;
+    height: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 20px 50px 100px 20px;
+    background-color: #3689C8;
+    overflow: auto;
+}
+    
+/* Roof Main */
+    
+div#box-roof section #title {
+    font-size: .8em;
+    margin: 1.1em;
+}
+    
+div.roof_1 img.roof1a {
+    width: 100%;
+    max-width: 400px;
+    max-height: 245px;
+    margin-bottom: 1.3em;
+}
+
+div.roof_1 img.roof1b {
+    width: 100%;
+    max-width: 400px;
+    max-height: 245px;
+    max-height: 399px;
+}
+
+div.roof_3 img.roof3c {
+    width: 100%;
+    max-width: 400px;
+    max-height: 245px;
+    margin: 0px 0px 1.3em 50px;
+}
+
+div.roof_3 img.roof3d {
+    width: 100%;
+    max-width: 400px;
+    max-height: 245px;
+    margin: 0px 0px 1.3em 50px;
+}
+    
+section div.roof_1 p {
+    width: 100%;
+    font-size: .7em;
+    margin: 0px 0px 1em 10%;
+    text-indent: 1em;
+}
+    
+div.roof_3 > p {
+    width: 100%;
+    font-size: .7em;
+    margin-right: 1em;
+    margin: 0px 0px 1.5em 10%;
+    text-indent: 1em;
+}
+    
+div.roof_1 ul {
+    width: 100%;
+    font-size: .6em;
+    margin-left: 1em;
+    margin: 0px 0px 1em 14%;
+}
+    
+section div.roof_3 > ul {
+    width: 100%;
+    font-size: .6em;
+    margin: 0px 0px 1em 14%;
+    
+}
+    
+h2.center2 {
+    text-align: center;
+    font-size: .7em;
+    margin-bottom: 2em;
+}
+
+p.center2 {
+    font-size: .7em;
+    margin-bottom: 1.2em;
+    text-indent: 1em;
+}
+    
+section div.roof_1 {
+    height: 470px;
+}
+
+section div.roof_2 {
+    height: 520px;
+    margin-bottom: 1.8em;
+}
+    
+div.roof_1 {
+    float: none;
+    width: 75%;
+    height: 500px;
+    margin: 0px 0px 1em 8%;
+}
+
+div.roof_2 {
+    float: left;
+    width: 50%;
+    height: 700px;
+    display: none;
+}
+    
+div.roof_3 {
+    float: none;
+    width: 75%;
+    height: 600px;
+    display: block;
+}
+    
+/* Footer */
+    
+footer#F1 {
+    display: none;
+    }
+    
+footer#F2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: -100px;
+    color: white;
+    background-color: #7B0303;    
+    clear: both;
+    display: block;
+}
+
+table#TF2 tr.short td {
+    padding: .3em 0px;
+    font-size: .6em;
+    text-align: center;
+    }
+    
+table#TF2 tr.tall td {
+    padding: .8em .4em;
+    font-size: .6em;
+    text-align: center; 
+    }
+    
+td > p.footer_address {
+    text-align: center;
+    font-size: 1.1em;
+    text-shadow: 2px 2px #293EDA;
+}
+    
+table#TF2 tr.short td p.copyright {
+    margin: .8em 0px;
+    font-size: .8em;
+    color: #000;
+    }
+    
+table#TF2 td#email2 p {
+    font-size: .7em;
+    width: 15em;
+    color: navy;
+    margin: 0px;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+table#TF2 td#email2 p:hover {
+    width: 15em;
+    margin: 10px auto 0px;
+    padding: 3px 6px 3px 6px;
+    color: black;
+    font-size: .6em;
+    background-color: #888585;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+table#TF2 td#email2 p:active {
+    width: 15em;
+    margin: 10px auto 0px;
+    padding: 3px 6px 3px 6px;
+    color: white;
+    font-size: .6em;
+    background-color: #87B9C4;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+    
+table td > a > p.phone {
+    width: 11em;
+    height: 8px;
+    margin: 5px auto 0px auto;
+    padding: 4px 1px 6px 1px;
+    color: #fff;
+    font-size: .9em;
+    background-color: #2A3BAB;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+    
+table td > a > p.phone:hover {
+    width: 9em;
+    height: 8px;
+    margin: 10px auto 0px auto;
+    padding: 3px 1px 6px 1px;
+    color: black;
+    font-size: .9em;
+    background-color: #66D0C7;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+table td > a > p.phone:active {
+    width: 9em;
+    height: 8px;
+    margin: 10px auto 0px auto;
+    padding: 3px 1px 6px 1px;
+    color: black;
+    font-size: .9em;
+    background-color: #747B8A;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+    
+}
